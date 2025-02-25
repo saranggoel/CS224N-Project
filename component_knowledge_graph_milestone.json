@@ -1,0 +1,896 @@
+{
+  "nodes": [
+    {
+      "id": "3.3V",
+      "type": "voltage",
+      "value": 3.3
+    },
+    {
+      "id": "5V",
+      "type": "voltage",
+      "value": 5.0
+    },
+    {
+      "id": "PIC18F4550-I/PT",
+      "type": "component",
+      "mpn": "PIC18F4550-I/PT",
+      "manufacturer": "Microchip",
+      "descriptions": [
+        "2V ~ 5.5V 48MHZ Flash 8-BIT 8-BIT Pic Mcu TQFP-44_10X10X08P Microchip Rohs",
+        "RISC Microcontroller, 8-Bit, FLASH, PIC18 CPU, 48MHz, CMOS, PQFP44",
+        "MCU 8-Bit PIC18 PIC RISC 32KB Flash 5V 44-Pin TQFP Tray",
+        "MCU, 8BIT, PIC18, 48MHZ, TQFP-44; Product Range: PIC18 Family PIC18F45xx Series Microcontrollers; CPU Speed: 48MHz; Program Memory Size: 32KB; RAM Memory Size: 2KB; No. of Pins: 44Pins; MCU Case Style: TQFP; No. of I/O's: 35I/O",
+        "Device Core = PIC18 / Data Bus Width bit = 8 / Instruction Set Architecture = RISC / Family Name = PIC18 / Clock Frequency Max. MHz = 48 / Program Memory Type = Flash / Program Memory Size kB = 32 / Data Memory Size B = 256 / RAM Memory Size kB = 2 / Interfaces = I\u00b2C / Interfaces = SPI / Interfaces = USART / Interfaces = USB / ADC Channels = 13 / ADC Resolution bit = 10 / Number of Programmable I/Os = 35 / Number of Timers/Counters = 4 / Comparators = 2 / Supply Voltage Max. V = 5.5 / Supply Voltage Min. V = 4.2 / Operating Temperature Min. \u00b0C = -40 / Operating Temperature Max. \u00b0C = 85 / Package Type = TQFP / Pins = 44 / Mounting Type = SMD / Packaging = Tray / Length mm = 10 / Width mm = 10 / Height mm = 1 / Reflow Temperature Max. \u00b0C = 260"
+      ],
+      "interface": [
+        "I2C",
+        "SPI",
+        "UART",
+        "USART",
+        "USB"
+      ],
+      "min_voltage": 4.2,
+      "max_voltage": 5.5,
+      "min_temp": "-40",
+      "max_temp": "85",
+      "output_type": [],
+      "supply_current": 0.0,
+      "power_rating": ""
+    },
+    {
+      "id": "I2C",
+      "type": "interface"
+    },
+    {
+      "id": "SPI",
+      "type": "interface"
+    },
+    {
+      "id": "UART",
+      "type": "interface"
+    },
+    {
+      "id": "USART",
+      "type": "interface"
+    },
+    {
+      "id": "USB",
+      "type": "interface"
+    },
+    {
+      "id": "STM32H743ZIT6",
+      "type": "component",
+      "mpn": "STM32H743ZIT6",
+      "manufacturer": "STMicroelectronics",
+      "descriptions": [
+        "ARM MCU, 32-bit, ARM Cortex M7, 480 MHz, 2 Megabytes, 1 Megabytes, 144 Pins, LQFP",
+        "MCU 32-Bit STM32 ARM Cortex M7 RISC 2MB Flash 1.8V/2.5V/3.3V 144-Pin LQFP Tray",
+        "RISC Microcontroller, 32-Bit, FLASH, CORTEX-M7 CPU, 480MHz, CMOS, PQFP144",
+        "STM32 Series 2 MB Flash 1 kB RAM 400 MHz 32-Bit Microcontroller - LQFP-144",
+        "High-performance and DSP with DP-FPU, ARM Cortex-M7 MCU with 2MBytes Flash, 1MB RAM, 400 MHz CPU, Art Accelerator, L1 cache, external memory interface, large set of peripherals",
+        "Mcu, 32Bit, 400Mhz, Lqfp-144; Product Range:Stm32 Family Stm32H7 Series Microcontrollers; Device Core:Arm Cortex-M7; Data Bus Width:32 Bit; Operating Frequency Max:480Mhz; Program Memory Size:2Mb; No. Of Pins:144Pins; Qualification:-Rohs Compliant: Yes |Stmicroelectronics STM32H743ZIT6",
+        "Device Core = ARM\u00ae Cortex\u00ae M7 / Data Bus Width bit = 32 / Instruction Set Architecture = RISC / Family Name = STM32 / Clock Frequency Max. MHz = 480 / Program Memory Type = Flash / Program Memory Size MB = 2 / Data Memory Size MB = 2 / RAM Memory Size MB = 1 / Interfaces = I\u00b2C / Interfaces = I\u00b2S / Interfaces = SPI / Interfaces = USART / Interfaces = USB / Interfaces = CAN / Interfaces = UART / Interfaces = Ethernet / ADC Channels = 20 / ADC Resolution bit = 16 / DAC Resolution bit = 12 / Number of Programmable I/Os = 114 / Number of Timers/Counters = 18 / Supply Voltage Min. V = 1.6 / Supply Voltage Max. V = 3.6 / Operating Temperature Min. \u00b0C = -40 / Operating Temperature Max. \u00b0C = 85 / Package Type = LQFP / Pins = 144 / Mounting Type = SMD / Packaging = Tray / Length mm = 20 / Width mm = 20 / Height mm = 1.4"
+      ],
+      "interface": [
+        "CAN",
+        "EBI/EMI",
+        "I2C",
+        "IrDA",
+        "LIN",
+        "SPI",
+        "UART",
+        "USART",
+        "USB"
+      ],
+      "min_voltage": 1.62,
+      "max_voltage": 3.6,
+      "min_temp": "-40",
+      "max_temp": "85",
+      "output_type": [],
+      "supply_current": 0.0,
+      "power_rating": ""
+    },
+    {
+      "id": "CAN",
+      "type": "interface"
+    },
+    {
+      "id": "EBI/EMI",
+      "type": "interface"
+    },
+    {
+      "id": "IrDA",
+      "type": "interface"
+    },
+    {
+      "id": "LIN",
+      "type": "interface"
+    },
+    {
+      "id": "ATMEGA2560V-8AU",
+      "type": "component",
+      "mpn": "ATMEGA2560V-8AU",
+      "manufacturer": "Microchip",
+      "descriptions": [
+        "MCU, 8-Bit 256KB Flash 8MHz 3.3/5V TQFP-100 | Microchip Technology Inc. ATMEGA2560V-8AU",
+        "MCU 8-Bit ATmega RISC 256KB Flash 2.5 Volt3.3 Volt 5 Volt 100-Pin TQFP",
+        "RISC Microcontroller, 8-Bit, FLASH, AVR RISC CPU, 8MHz, CMOS, PQFP100",
+        "ATmega Series 256 KB Flash 8 KB SRAM 8 MHz 8-Bit Microcontroller - TQFP-100",
+        "FPGA Cyclone\u00ae III Family 119088 Cells 437.5MHz 65nm Technology 1.2V 780-Pin FBGA",
+        "MICROCHIP - ATMEGA2560V-8AU - 8 Bit MCU, Low Power High Performance, AVR ATmega Family ATmega256X Series Microcontrollers, 8 MHz",
+        "Microcontroller Operating temperature: -40...85 \u00b0C Power supply: 1.8...5.5 V No. of I/Os: 86 No. of timers: 6 Extras: JTAG Package: TQFP-100 ADC resolution: 10 bit EEPROM: 4 KB Flash memory: 256 KB SRAM: 8 KB",
+        "MCU, 8BIT, ATMEGA, 8MHZ, TQFP-100; Product Range: AVR ATmega Family ATmega256X Series Microcontrollers; CPU Speed: 8MHz; Program Memory Size: 256KB; RAM Memory Size: 8KB; No. of Pins: 100Pins; MCU Case Style: TQFP; No. of I/O'",
+        "Manufacturer Atmel ;Part No: ATMEGA2560V-8AU ;Minimum Operating Supply Voltage: 1.8 V ;Program Memory Size: 256 KB ;Family: ATmega2560V ;Supplier_Package: TQFP ;;Family Name: ATmega Number of Timers: 6 Program ;Memory ;Type: Flash Number of Programmable I"
+      ],
+      "interface": [
+        "2-Wire",
+        "EBI/EMI",
+        "I2C",
+        "SPI",
+        "UART",
+        "USART"
+      ],
+      "min_voltage": 1.8,
+      "max_voltage": 5.5,
+      "min_temp": "-40",
+      "max_temp": "85",
+      "output_type": [],
+      "supply_current": 0.0,
+      "power_rating": ""
+    },
+    {
+      "id": "2-Wire",
+      "type": "interface"
+    },
+    {
+      "id": "ADXL335BCPZ",
+      "type": "component",
+      "mpn": "ADXL335BCPZ",
+      "manufacturer": "Analog Devices",
+      "descriptions": [
+        "SMALL, LOW POWER, 3-AXIS PLUS OR MINUS 3G ACCELEROMETER Analog Circuit, 1 Func, PQCC16",
+        "ANALOG DEVICES - ADXL335BCPZ - MEMS Accelerometer, 3-Axis, Analogue, X, Y, Z, \u00a1\u00c0 3g, 1.8 V, 3.6 V, LFCSP",
+        "Accelerometer Triple \u00b13g 1.8V to 3.6V 270mV/g to 330mV/g 16-Pin LFCSP EP Tray",
+        "MEMS ACCELEROMETER, X/Y/Z, ANALOGUE; Sensing Range - Accelerometer:\u00b1 3.6g; Sensing Axis:X, Y, Z; Output Interface:-; Sensor Case / Package:LFCSP; No. of Pins:16Pins; Sensitivity Typ:300mV/g; Supply Voltage Min:1.8V; Qualification:- RoHS Compliant: Yes"
+      ],
+      "interface": [],
+      "min_voltage": 1.8,
+      "max_voltage": 3.6,
+      "min_temp": "-40",
+      "max_temp": "85",
+      "output_type": [
+        "ANALOG"
+      ],
+      "supply_current": 0.0,
+      "power_rating": ""
+    },
+    {
+      "id": "ANALOG",
+      "type": "output_type"
+    },
+    {
+      "id": "LSM6DSO32TR",
+      "type": "component",
+      "mpn": "LSM6DSO32TR",
+      "manufacturer": "STMicroelectronics",
+      "descriptions": [
+        "Accelerometer and 3D Gyroscope 3D Always-On 1.71V to 3.6V 0.55mA 14-Pin LGA T/R",
+        "3D Accelerometer and 3D Gyroscope Sensor Analog Output 1.8V 14-Pin VFLGA T/R",
+        "LSM6DSO32 Series 3.6 V 3D Digital Accelerometer and 3D Digital Gyroscope -LGA-14",
+        "INEMO INERTIAL MODULE, LGA-4; Supply Voltage Min:1.71V; Supply Voltage Max:3.6V; Sensor Case / Package:LGA; No. of Pins:14Pins; Sensing Range - Accelerometer:\u00b1 4g, \u00b1 8g, \u00b1 16g, \u00b1 32g; Product Range:-; Sensor Case Style:LGA RoHS Compliant: Yes"
+      ],
+      "interface": [],
+      "min_voltage": 1.62,
+      "max_voltage": 3.6,
+      "min_temp": "-40",
+      "max_temp": "85",
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 0.0,
+      "power_rating": ""
+    },
+    {
+      "id": "Digital",
+      "type": "output_type"
+    },
+    {
+      "id": "D3172MMA7361LC",
+      "type": "component",
+      "mpn": "D3172MMA7361LC",
+      "manufacturer": "NXP Semiconductors",
+      "descriptions": [
+        "Acceleration Sensor Development Tools XYZ-AXIS DIGITAL ACCEL D",
+        "Xyz-Axis Digital Accel D |Nxp D3172MMA7361LC",
+        "XYZ-Axis Digital Accel D Board"
+      ],
+      "interface": [
+        "Analog",
+        "I2C",
+        "SPI"
+      ],
+      "min_voltage": 0.0,
+      "max_voltage": 0.0,
+      "min_temp": "",
+      "max_temp": "",
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 0.0,
+      "power_rating": ""
+    },
+    {
+      "id": "Analog",
+      "type": "interface"
+    },
+    {
+      "id": "LM35DH",
+      "type": "component",
+      "mpn": "LM35DH",
+      "manufacturer": "Texas Instruments",
+      "descriptions": [
+        "LM35 Precision Centigrade Temperature Sensors | SENSOR ANALOG 0C-70C TO46-3",
+        "1C high voltage analog temperature sensor, 10 mV/C 3-TO 0 to 70",
+        "Analog Voltage Output Sensor, -.55V Min, 1.5V Max, 0.60Cel, Bipolar, Round, 3 Pin, Through Hole Mount",
+        "Temp Sensor Analog(Voltage) Serial (2-Wire) 3-Pin TO-46",
+        "LM35 - 0.5C TEMPERATURE SENSOR W",
+        "PREC CENTIGRADE TEMP SENSOR <AZ",
+        "IC, PRECISION TEMP SENSOR, TO-46-3; IC Output Type:Voltage; Sensing Accuracy Range:\u00b1 0.6\u00b0C; Temperature Sensing Range:0\u00b0C to +100\u00b0C; Supply Current:56.2\u00b5A; Supply Voltage Range:4V to 30V; Sensor Case Style:TO-46; No. of Pins:3; SVHC:No SVHC (15-Dec-2010); Base Number:35; IC Generic Number:35; Logic Function Number:35; Operating Temperature Max:100\u00b0C; Operating Temperature Min:0\u00b0C; Operating Temperature Range:0\u00b0C to +100\u00b0C; Output Current:10mA; Output Type:Voltage; Output Voltage:6V; Output Voltage per \u00b0C:10mV/\u00b0C; Output Voltage per \u00b0C:10mV; Package / Case:TO-46; Sensor / Transducer Type:Temperature; Supply Voltage Max:30V; Supply Voltage Min:4V; Temperature Max:100\u00b0C; Temperature Min:0\u00b0C; Temperature Sensing Range:0\u00b0C to +100\u00b0C; Termination Type:Through Hole"
+      ],
+      "interface": [
+        "Analog"
+      ],
+      "min_voltage": 4.0,
+      "max_voltage": 30.0,
+      "min_temp": "0",
+      "max_temp": "70",
+      "output_type": [
+        "ANALOG",
+        "Analog Voltage"
+      ],
+      "supply_current": 0.0,
+      "power_rating": ""
+    },
+    {
+      "id": "Analog Voltage",
+      "type": "output_type"
+    },
+    {
+      "id": "TMP117MAIDRVR",
+      "type": "component",
+      "mpn": "TMP117MAIDRVR",
+      "manufacturer": "Texas Instruments",
+      "descriptions": [
+        "0.1\u00b0C digital temperature sensor, 48-bit EEPROM, PT100/PT1000 RTD replacement 6-WSON 0 to 85",
+        "HIGH-ACCURACY, LOW-POWER, DIGITAL TEMPERATURE SENSOR Serial Switch/Digital Sensor, 16 Bit(s), 0.1Cel, Square, Surface Mount",
+        "Tape & Reel (TR) 2-WIRE INTERFACE Standby Mode Shutdown Mode One-Shot Programmable Limit 16 Digital, Local Temperature Sensor 2mm 1.8V~5.5V \u00b10.1C (\u00b10.2C) 16b"
+      ],
+      "interface": [],
+      "min_voltage": 0.0,
+      "max_voltage": 0.0,
+      "min_temp": "",
+      "max_temp": "",
+      "output_type": [],
+      "supply_current": 0.0,
+      "power_rating": ""
+    },
+    {
+      "id": "MAX31855KASA+",
+      "type": "component",
+      "mpn": "MAX31855KASA+",
+      "manufacturer": "Analog Devices",
+      "descriptions": [
+        "MAX31855 Series 3.6 V 900 uA 470.6 mW Thermocouple-to-Digital Converter - SOIC-8",
+        "Cold-Junction Compensated Thermocouple-to-Digital Converter",
+        "Accurate Thermocouple-to-Digital Converter IC Simplifies Designs and Lowers System Cost",
+        "Temp Sensor Digital Serial (SPI) Automotive 8-Pin SOIC N",
+        "Sensor Interface Thermocouple To Digital Converter",
+        "TEMPERATURE SENSOR, 2DEG C, NSOIC-8",
+        "IC CONV THERMOCOUPLE-DGTL SOIC",
+        "MAX31855 3.6V 900muA 1.5mm 1.75B",
+        "SOP-8 ADC/DAC - Specialized ROHS",
+        "SPECIALTY ANALOG CIRCUIT PDSO8",
+        "Temperature Sensor, 2Deg C, Nsoic-8; Sensor Output Type:Digital; Accuracy:\u00b1 2\u00b0C; Sensor Case/Package:Nsoic; No. Of Pins:8Pins; Supply Voltage Min:3V; Supply Voltage Max:3.6V; No. Of Channels:1Channels; Resolution:14 Bits Rohs Compliant: Yes |Maxim Integrated/analog Devices MAX31855KASA+"
+      ],
+      "interface": [
+        "SPI"
+      ],
+      "min_voltage": 3.0,
+      "max_voltage": 3.6,
+      "min_temp": "-40",
+      "max_temp": "125",
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 0.0,
+      "power_rating": ""
+    },
+    {
+      "id": "GP2Y0A21YK0F",
+      "type": "component",
+      "mpn": "GP2Y0A21YK0F",
+      "manufacturer": "Sharp",
+      "descriptions": [
+        "Diffuse Photoelectric Sensor, 100mm Min, 800mm Max, 0.25-0.55V, Rectangular, Panel Mount",
+        "SENSOR, DISTANCE, ANALOGUE; Sensing Range Max: 80cm; Sensing Method: Retroreflective; Sensor Output: Analogue; Product Range: -; Connection Method: -; Supply Voltage DC Min: 4.5V; Supply V; Available until stocks are exhausted",
+        "SENSOR, DISTANCE, ANALOGUE; Detecting Distance:80 cm; External Depth:13.5mm; External Length / Height:13mm; External Width:44.75mm; Measuring Range:10cm to 80cm; Operating Temperature Max:60\u00b0C; Operating Temperature Min:-10\u00b0C; Operating Temperature Range:-10\u00b0C to +60\u00b0C; Output Type:Analogue; Response Time:39ms; Supply Current:40mA; Supply Voltage Max:5.5V; Supply Voltage Min:4.5V; Voltage Rating V DC:7V"
+      ],
+      "interface": [],
+      "min_voltage": 0.0,
+      "max_voltage": 0.0,
+      "min_temp": "-10",
+      "max_temp": "60",
+      "output_type": [
+        "ANALOG",
+        "Digital"
+      ],
+      "supply_current": 0.0,
+      "power_rating": ""
+    },
+    {
+      "id": "VL53L1X-SATEL",
+      "type": "component",
+      "mpn": "VL53L1X-SATEL",
+      "manufacturer": "STMicroelectronics",
+      "descriptions": [
+        "Breakout board with VL53L1X long distance ranging sensor for easy integration into customer device",
+        "BREAKOUT BOARD, TOF PROXIMITY SENSOR; Accessory Type: Breakout Board; For Use With: STMicroelectronics VL53L1X Time-of-Flight Proximity Sensor; Product Range: -; SVHC: No SVHC (27-Jun-20; Available until stocks are exhausted",
+        "Family Name = Sensor Modules / Product Type = Distance Sensor / Kit Contents = 2x VL53L1X Satellite Boards / Interfaces = I\u00b2C / Supply Voltage Min. V = 2.8 / Supply Voltage Max. V = 5"
+      ],
+      "interface": [],
+      "min_voltage": 0.0,
+      "max_voltage": 0.0,
+      "min_temp": "",
+      "max_temp": "",
+      "output_type": [],
+      "supply_current": 0.0,
+      "power_rating": ""
+    },
+    {
+      "id": "MB1013-000",
+      "type": "component",
+      "mpn": "MB1013-000",
+      "manufacturer": "MaxBotix",
+      "descriptions": [
+        "ULTRASONIC SENSOR HRLV-MAXSONAR"
+      ],
+      "interface": [],
+      "min_voltage": 0.0,
+      "max_voltage": 0.0,
+      "min_temp": "",
+      "max_temp": "",
+      "output_type": [],
+      "supply_current": 0.0,
+      "power_rating": ""
+    },
+    {
+      "id": "ULN2003A",
+      "type": "component",
+      "mpn": "ULN2003A",
+      "manufacturer": "STMicroelectronics",
+      "descriptions": [
+        "ULN Series 50 V 500 mA High Voltage High Current Seven Darlington Array - DIP-16",
+        "ARRAY; DIP16; 7-CHANNEL DARLINGTON; 50V; 30V; 500MA COLLECTOR; 25MA IB; 60",
+        "DARLINGTON ARRAY 7NPN, 2003, DIP16; Transistor Polarity: NPN; Collector Emitter Voltage V(br)ceo: 50V; Power Dissipation Pd: 2.25W; DC Collector Current: 500mA; DC Current Gain hFE: 1000hFE; Transistor Case Style: DIP; No. of"
+      ],
+      "interface": [],
+      "min_voltage": 0.0,
+      "max_voltage": 0.0,
+      "min_temp": "-40",
+      "max_temp": "85",
+      "output_type": [],
+      "supply_current": 0.0,
+      "power_rating": ""
+    },
+    {
+      "id": "TMC5160-EVAL-KIT",
+      "type": "component",
+      "mpn": "TMC5160-EVAL-KIT",
+      "manufacturer": "Analog Devices",
+      "descriptions": [
+        "TMC5160 Universal High Voltage Controller/Driver for Two-Phase Bipolar Stepper Motor Evaluation Kit",
+        "TMC5160 Power Management Motor Controller/Driver Stepper Active Power Management Motor Controller/Driver, Stepper Evaluation Board",
+        "Stepper motor cDriver 8 to 60V, for external N-Fets with S/D and SPI Interface, 256 \u00b5Steps, SixPoint ramp controller, CoolStep, StallGuard2, SpreadCycle and StealthChop2",
+        "Family Name = Development Kits / Product Type = Evaluation Kit / Interfaces = SPI / Interfaces = STEP / DIR / Interfaces = UART / Supply Voltage Min. V = 3.3 / Supply Voltage Max. V = 5",
+        "Eval Kit, Stepper Motor Controller; Application Sub Type:2 Phase Stepper Motor Controller/Driver; Silicon Manufacturer:Analog Devices; Kit Application Type:Motor Control; Silicon Core Number:Tmc5160-Ta; Product Range:- Rohs Compliant: Yes |Trinamic/analog Devices TMC5160-EVAL-KIT"
+      ],
+      "interface": [],
+      "min_voltage": 0.0,
+      "max_voltage": 0.0,
+      "min_temp": "",
+      "max_temp": "",
+      "output_type": [],
+      "supply_current": 0.0,
+      "power_rating": ""
+    },
+    {
+      "id": "A4988SETTR-T",
+      "type": "component",
+      "mpn": "A4988SETTR-T",
+      "manufacturer": "Allegro MicroSystems",
+      "descriptions": [
+        "DMOS Tape & Reel (TR) A4988 General Purpose motor driver 35V 2A 2.79mm -20C~150C TJ",
+        "ALLEGRO MICROSYSTEMS - A4988SETTR-T - DMOS Microstepping Driver with Translator and Overcurrent Protection IC in QFN-28 Package",
+        "2A 3V~5.5V WQFN-28-EP(5x5) Motor Driver ICs ROHS",
+        "DMOS Stepping Motor Driver 28-Pin QFN EP T/R",
+        "MOTOR DRIVER, MICROSTEPPER, 28QFN; Motor Type:Stepper; No. of Outputs:2; Output Current:2A; Output Voltage:35V; Supply Voltage Range:3V to 5V; Driver Case Style:QFN; No. of Pins:28; Operating Temperature Range:-20\u00b0C to +85\u00b0C; MSL:MSL 2 - 1 year; SVHC:No SVHC (19-Dec-2011)"
+      ],
+      "interface": [],
+      "min_voltage": 3.0,
+      "max_voltage": 35.0,
+      "min_temp": "-20",
+      "max_temp": "85",
+      "output_type": [],
+      "supply_current": 0.0,
+      "power_rating": ""
+    },
+    {
+      "id": "LM386MMX-1/NOPB",
+      "type": "component",
+      "mpn": "LM386MMX-1/NOPB",
+      "manufacturer": "Texas Instruments",
+      "descriptions": [
+        "700-mW, mono, 5- to 18-V, analog input Class-AB audio amplifier 8-VSSOP 0 to 70",
+        "Audio Amp Speaker 1-CH Mono 0.325W Class-AB 8-Pin VSSOP T/R / IC AMP AUDIO PWR .325W AB 8VSSOP",
+        "Audio Amplifier, 0.325W, 1 Channel(s), 1 Func, Bipolar, PDSO8",
+        "AUDIO AMPLIFIER, CLASS AB, MSOP-8; Output Power:-; Amplifier Class:AB; No. of Channels:1 Channel; Supply Voltage Range:4V to 12V; Amplifier Case Style:MSOP; No. of Pins:8Pins; Load Impedance:4ohm; Operating Temperature M",
+        "AUDIO AMPLIFIER, CLASS AB, MSOP-8; Puissance de sortie: -; Classe d'amplificateur audio: AB; Nbre de voies: 1 voie; Gamme de tension d'alimentation: 4V \u00c3 12V; Type de bo\u00c3\u00aetier d'amplificateur: MSOP; Nombre de broches: 8Broche(s"
+      ],
+      "interface": [],
+      "min_voltage": 4.0,
+      "max_voltage": 12.0,
+      "min_temp": "0",
+      "max_temp": "70",
+      "output_type": [],
+      "supply_current": 0.0,
+      "power_rating": ""
+    },
+    {
+      "id": "CS43L22-CNZ",
+      "type": "component",
+      "mpn": "CS43L22-CNZ",
+      "manufacturer": "Cirrus Logic",
+      "descriptions": [
+        "DAC 1-CH Delta-Sigma 24-bit 40-Pin QFN EP Rail",
+        "Surface Mount QUAD NO LEAD Not Qualified digital to analog converter -40C 950mum 3B 96ksps",
+        "IC, SM, STEREO DAC, DELTA SIGMA; Resolution (Bits):24bit; Sampling Rate:96kSPS; Data Interface:Serial; Supply Voltage Range:1.6V to 5V, 1.8V to 2.5V, 1.8V to 3.3V; ADC / DAC Case Style:QFN; No. of Pins:40Pins; Input Channel Type:Serial; Operating Temperature Min:-40\u00b0C; Operating Temperature Max:85\u00b0C; Product Range:-; Automotive Qualification Standard:-; MSL:MSL 2 - 1 year; SVHC:No SVHC (15-Jun-2015); Base Number:43; IC Case Style:QFN; No. of Bits:24bit; Operating Temperature Range:-40\u00b0C to +85\u00b0C; Output Type:Voltage; Sample Rate:96kSPS; Supply Current:10mA; Supply Voltage Max:5.25V; Supply Voltage Min:1.6V; Supply Voltage Range - Analogue:1.65V to 2.63V; Supply Voltage Range - Digital:1.65V to 2.63V; Termination Type:Surface Mount Device"
+      ],
+      "interface": [
+        "I2C",
+        "I2S"
+      ],
+      "min_voltage": 1.6,
+      "max_voltage": 5.25,
+      "min_temp": "-40",
+      "max_temp": "85",
+      "output_type": [
+        "Voltage"
+      ],
+      "supply_current": 0.0,
+      "power_rating": ""
+    },
+    {
+      "id": "I2S",
+      "type": "interface"
+    },
+    {
+      "id": "Voltage",
+      "type": "output_type"
+    },
+    {
+      "id": "VS1053B-L",
+      "type": "component",
+      "mpn": "VS1053B-L",
+      "manufacturer": "VLSI",
+      "descriptions": [
+        "LQFP-48_7x7x05P Audio Interface ICs ROHS",
+        "Audio Codec 1ADC / 1DAC 18bit",
+        "Audio Interface Chip",
+        "VS1053B-L VLSI"
+      ],
+      "interface": [
+        "SPI",
+        "Serial"
+      ],
+      "min_voltage": 0.0,
+      "max_voltage": 0.0,
+      "min_temp": "-30",
+      "max_temp": "85",
+      "output_type": [],
+      "supply_current": 0.0,
+      "power_rating": ""
+    },
+    {
+      "id": "Serial",
+      "type": "interface"
+    },
+    {
+      "id": "MCP3002-I/MS",
+      "type": "component",
+      "mpn": "MCP3002-I/MS",
+      "manufacturer": "Microchip",
+      "descriptions": [
+        "2-Channel Single ADC SAR 200ksps 10-bit Serial Automotive AEC-Q100 8-Pin MSOP Tube",
+        "ADC, Successive Approximation, 10-Bit, 1 Func, 2 Channel, Serial Access, CMOS, PDSO8",
+        "10-bit, 200 ksps SAR ADC, SPI, dual channel",
+        "10-bit ADC, SPI, dual channel8 MSOP 3x3mm TUBE | Microchip Technology Inc. MCP3002-I/MS",
+        "Analog to Digital Converters - ADC 10-bit SPI Dual Chl IND TEMP, MSOP8",
+        "Converters - A/D - System - SAR 10-bit SPI Dual Chl",
+        "Successive Approximation Register, 10bits, 5.5V, 550\u00b5A, MSOP-8, RoHS",
+        "10Bit 2.7V~5.5V 200kHz SPI MSOP-8 Analog To Digital Converters (ADCs) ROHS",
+        "ADC, 10BIT, 200KSPS, -40 TO 85DEG C; Resolution (Bits): 10bit; Sampling Rate: 200kSPS; Input Channel Type: Pseudo Differential, Single Ended; Data Interface: SPI; Supply Voltage Type: Single; Supply Voltage Min: 2.7V; Supply V"
+      ],
+      "interface": [
+        "SPI",
+        "Serial"
+      ],
+      "min_voltage": 2.7,
+      "max_voltage": 5.5,
+      "min_temp": "-40",
+      "max_temp": "85",
+      "output_type": [],
+      "supply_current": 0.0,
+      "power_rating": ""
+    },
+    {
+      "id": "IS31FL3741A-QFLS4-TR",
+      "type": "component",
+      "mpn": "IS31FL3741A-QFLS4-TR",
+      "manufacturer": "ISSI",
+      "descriptions": [
+        "39x9 Dot Matrix LED Driver, QFN-60 (7.0mm x 7.0mm), T&R",
+        "IC 399 MATRIX LED DRIVER, 60QFN",
+        "IC LED DRVR LIN I2C 38MA 60QFN",
+        "QFN-60-EP(7x7) LED Drivers ROHS"
+      ],
+      "interface": [],
+      "min_voltage": 0.0,
+      "max_voltage": 0.0,
+      "min_temp": "",
+      "max_temp": "",
+      "output_type": [],
+      "supply_current": 0.0,
+      "power_rating": ""
+    },
+    {
+      "id": "DS1307Z+",
+      "type": "component",
+      "mpn": "DS1307Z+",
+      "manufacturer": "Analog Devices",
+      "descriptions": [
+        "Integrated Circuit Real Time Clock (RTC); I2C; LPC; serial; 4.5-5.5V; -40+85 deg.C; SMD; SOP8",
+        "DS1307 Series 5.5 V I2C / Serial Surface Mount Real Time Clock - SOIC-8",
+        "RTC Clock/Calendar 56B I2C Interface SO8 DS 1307 Z+",
+        "8-SOIC (0.154 3.90mm Width) DS1307 e3 Leap Year NVSRAM Square Wave Output real time clock IC 4.5V~5.5V 200muA @ 5V 5mm 32.768kHz",
+        "Date Format = YY-MM-DD / Time Format = HH:MM:SS (12/24 hr) / Interfaces = I\u00b2C / Interfaces = 2-Wire Serial / Battery Backup Switching Max. V = 3.5 / Battery Backup Switching Min. V = 2 / Supply Voltage Min. V = 4.5 / Supply Voltage Max. V = 5.5 / Operating Temperature Min. \u00b0C = 0 / Operating Temperature Max. \u00b0C = 70 / Package Type = SOIC / Pins = 8 / Mounting Type = SMD / MSL = Level-1 / Packaging = Tube / Length mm = 4.9 / Width mm = 3.9 / Height mm = 1.5 / Reflow Temperature Max. \u00b0C = 260 / Memory Size B = 56"
+      ],
+      "interface": [
+        "I2C"
+      ],
+      "min_voltage": 4.5,
+      "max_voltage": 5.5,
+      "min_temp": "0",
+      "max_temp": "70",
+      "output_type": [],
+      "supply_current": 0.0,
+      "power_rating": ""
+    }
+  ],
+  "edges": [
+    {
+      "source": "3.3V",
+      "target": "STM32H743ZIT6",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "ATMEGA2560V-8AU",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "ADXL335BCPZ",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "LSM6DSO32TR",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "MAX31855KASA+",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "A4988SETTR-T",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "CS43L22-CNZ",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "MCP3002-I/MS",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "PIC18F4550-I/PT",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "ATMEGA2560V-8AU",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "LM35DH",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "A4988SETTR-T",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "LM386MMX-1/NOPB",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "CS43L22-CNZ",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "MCP3002-I/MS",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "DS1307Z+",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "I2C",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "SPI",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "UART",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "USART",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "USB",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "LM386MMX-1/NOPB",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "GP2Y0A21YK0F",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "I2C",
+      "target": "STM32H743ZIT6",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "ATMEGA2560V-8AU",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "D3172MMA7361LC",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "CS43L22-CNZ",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "DS1307Z+",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "STM32H743ZIT6",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "ATMEGA2560V-8AU",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "D3172MMA7361LC",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "MAX31855KASA+",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "VS1053B-L",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "MCP3002-I/MS",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "UART",
+      "target": "STM32H743ZIT6",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "UART",
+      "target": "ATMEGA2560V-8AU",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "USART",
+      "target": "STM32H743ZIT6",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "USART",
+      "target": "ATMEGA2560V-8AU",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "USB",
+      "target": "STM32H743ZIT6",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "CAN",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "EBI/EMI",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "IrDA",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "LIN",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "TMP117MAIDRVR",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "VL53L1X-SATEL",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "EBI/EMI",
+      "target": "ATMEGA2560V-8AU",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "2-Wire",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "MB1013-000",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "A4988SETTR-T",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ADXL335BCPZ",
+      "target": "ANALOG",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "ANALOG",
+      "target": "LM35DH",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "ANALOG",
+      "target": "GP2Y0A21YK0F",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "LSM6DSO32TR",
+      "target": "Digital",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "D3172MMA7361LC",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "MAX31855KASA+",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "GP2Y0A21YK0F",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "D3172MMA7361LC",
+      "target": "Analog",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Analog",
+      "target": "LM35DH",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "LM35DH",
+      "target": "Analog Voltage",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "CS43L22-CNZ",
+      "target": "I2S",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "CS43L22-CNZ",
+      "target": "Voltage",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "VS1053B-L",
+      "target": "Serial",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Serial",
+      "target": "MCP3002-I/MS",
+      "relationship": "communicates_via"
+    }
+  ]
+}
