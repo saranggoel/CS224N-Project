@@ -7,7 +7,7 @@ def load_graph(json_path):
         data = json.load(f)
     return data
 
-def create_visualization(graph_data, output_path='graph_milestone.html'):
+def create_visualization(graph_data, output_path='graph_milestone_final.html'):
     # Create network with explicit notebook mode off
     net = Network(height='750px', width='100%', notebook=False, bgcolor='#ffffff', font_color='#000000')
     
@@ -156,7 +156,7 @@ def create_visualization(graph_data, output_path='graph_milestone.html'):
 def main():
     try:
         # Load the graph data
-        graph_data = load_graph('component_knowledge_graph_milestone.json')
+        graph_data = load_graph('component_knowledge_graph_final.json')
         
         # Create the visualization
         create_visualization(graph_data)
