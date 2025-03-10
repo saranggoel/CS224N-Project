@@ -1,0 +1,4345 @@
+{
+  "nodes": [
+    {
+      "id": "3.3V",
+      "type": "voltage",
+      "value": 3.3
+    },
+    {
+      "id": "5V",
+      "type": "voltage",
+      "value": 5.0
+    },
+    {
+      "id": "PIC18F4550-I/PT",
+      "type": "component",
+      "mpn": "PIC18F4550-I/PT",
+      "manufacturer": "Microchip",
+      "descriptions": [
+        "2V ~ 5.5V 48MHZ Flash 8-BIT 8-BIT Pic Mcu TQFP-44_10X10X08P Microchip Rohs",
+        "RISC Microcontroller, 8-Bit, FLASH, PIC18 CPU, 48MHz, CMOS, PQFP44",
+        "IC MCU 8BIT 32KB FLASH 44TQFP PIC PIC\u00ae 18F Microcontroller IC 8-Bit 48MHz 32KB (16K x 16) FLASH 44-TQFP (10x10)",
+        "MCU 8-Bit PIC18 PIC RISC 32KB Flash 5V 44-Pin TQFP Tray",
+        "MCU, 8BIT, PIC18, 48MHZ, TQFP-44; Product Range: PIC18 Family PIC18F45xx Series Microcontrollers; CPU Speed: 48MHz; Program Memory Size: 32KB; RAM Memory Size: 2KB; No. of Pins: 44Pins; MCU Case Style: TQFP; No. of I/O's: 35I/O",
+        "Device Core = PIC18 / Data Bus Width bit = 8 / Instruction Set Architecture = RISC / Family Name = PIC18 / Clock Frequency Max. MHz = 48 / Program Memory Type = Flash / Program Memory Size kB = 32 / Data Memory Size B = 256 / RAM Memory Size kB = 2 / Interfaces = I\u00b2C / Interfaces = SPI / Interfaces = USART / Interfaces = USB / ADC Channels = 13 / ADC Resolution bit = 10 / Number of Programmable I/Os = 35 / Number of Timers/Counters = 4 / Comparators = 2 / Supply Voltage Max. V = 5.5 / Supply Voltage Min. V = 4.2 / Operating Temperature Min. \u00b0C = -40 / Operating Temperature Max. \u00b0C = 85 / Package Type = TQFP / Pins = 44 / Mounting Type = SMD / Packaging = Tray / Length mm = 10 / Width mm = 10 / Height mm = 1 / Reflow Temperature Max. \u00b0C = 260"
+      ],
+      "interface": [
+        "I2C",
+        "SPI",
+        "UART",
+        "USART",
+        "USB"
+      ],
+      "min_voltage": 4.2,
+      "max_voltage": 5.5,
+      "output_type": [
+        "CMOS"
+      ],
+      "supply_current": 0.1,
+      "component_type": "mcu",
+      "original_name": "PIC18F4550"
+    },
+    {
+      "id": "I2C",
+      "type": "interface"
+    },
+    {
+      "id": "SPI",
+      "type": "interface"
+    },
+    {
+      "id": "UART",
+      "type": "interface"
+    },
+    {
+      "id": "USART",
+      "type": "interface"
+    },
+    {
+      "id": "USB",
+      "type": "interface"
+    },
+    {
+      "id": "CMOS",
+      "type": "output_type"
+    },
+    {
+      "id": "0.1mA",
+      "type": "current",
+      "value": 0.1
+    },
+    {
+      "id": "STM32H743ZIT6",
+      "type": "component",
+      "mpn": "STM32H743ZIT6",
+      "manufacturer": "STMicroelectronics",
+      "descriptions": [
+        "ARM MCU, 32-bit, ARM Cortex M7, 480 MHz, 2 Megabytes, 1 Megabytes, 144 Pins, LQFP",
+        "MCU 32-Bit STM32 ARM Cortex M7 RISC 2MB Flash 1.8V/2.5V/3.3V 144-Pin LQFP Tray",
+        "RISC Microcontroller, 32-Bit, FLASH, CORTEX-M7 CPU, 480MHz, CMOS, PQFP144",
+        "STM32 Series 2 MB Flash 1 kB RAM 400 MHz 32-Bit Microcontroller - LQFP-144",
+        "High-performance and DSP with DP-FPU, ARM Cortex-M7 MCU with 2MBytes Flash, 1MB RAM, 400 MHz CPU, Art Accelerator, L1 cache, external memory interface, large set of peripherals",
+        "Mcu, 32Bit, 400Mhz, Lqfp-144; Product Range:Stm32 Family Stm32H7 Series Microcontrollers; Device Core:Arm Cortex-M7; Data Bus Width:32 Bit; Operating Frequency Max:480Mhz; Program Memory Size:2Mb; No. Of Pins:144Pins; Qualification:-Rohs Compliant: Yes |Stmicroelectronics STM32H743ZIT6",
+        "Device Core = ARM\u00ae Cortex\u00ae M7 / Data Bus Width bit = 32 / Instruction Set Architecture = RISC / Family Name = STM32 / Clock Frequency Max. MHz = 480 / Program Memory Type = Flash / Program Memory Size MB = 2 / Data Memory Size MB = 2 / RAM Memory Size MB = 1 / Interfaces = I\u00b2C / Interfaces = I\u00b2S / Interfaces = SPI / Interfaces = USART / Interfaces = USB / Interfaces = CAN / Interfaces = UART / Interfaces = Ethernet / ADC Channels = 20 / ADC Resolution bit = 16 / DAC Resolution bit = 12 / Number of Programmable I/Os = 114 / Number of Timers/Counters = 18 / Supply Voltage Min. V = 1.6 / Supply Voltage Max. V = 3.6 / Operating Temperature Min. \u00b0C = -40 / Operating Temperature Max. \u00b0C = 85 / Package Type = LQFP / Pins = 144 / Mounting Type = SMD / Packaging = Tray / Length mm = 20 / Width mm = 20 / Height mm = 1.4"
+      ],
+      "interface": [
+        "CAN",
+        "EBI/EMI",
+        "I2C",
+        "IrDA",
+        "LIN",
+        "SPI",
+        "UART",
+        "USART",
+        "USB"
+      ],
+      "min_voltage": 1.62,
+      "max_voltage": 3.6,
+      "output_type": [
+        "CMOS"
+      ],
+      "supply_current": 32.0,
+      "component_type": "mcu",
+      "original_name": "STM32H743ZIT6"
+    },
+    {
+      "id": "CAN",
+      "type": "interface"
+    },
+    {
+      "id": "EBI/EMI",
+      "type": "interface"
+    },
+    {
+      "id": "IrDA",
+      "type": "interface"
+    },
+    {
+      "id": "LIN",
+      "type": "interface"
+    },
+    {
+      "id": "32.0mA",
+      "type": "current",
+      "value": 32.0
+    },
+    {
+      "id": "ATMEGA2560V-8AU",
+      "type": "component",
+      "mpn": "ATMEGA2560V-8AU",
+      "manufacturer": "Microchip",
+      "descriptions": [
+        "MCU, 8-Bit 256KB Flash 8MHz 3.3/5V TQFP-100 | Microchip Technology Inc. ATMEGA2560V-8AU",
+        "MCU 8-Bit ATmega RISC 256KB Flash 2.5 Volt3.3 Volt 5 Volt 100-Pin TQFP",
+        "RISC Microcontroller, 8-Bit, FLASH, AVR RISC CPU, 8MHz, CMOS, PQFP100",
+        "ATmega Series 256 KB Flash 8 KB SRAM 8 MHz 8-Bit Microcontroller - TQFP-100",
+        "FPGA Cyclone\u00ae III Family 119088 Cells 437.5MHz 65nm Technology 1.2V 780-Pin FBGA",
+        "MICROCHIP - ATMEGA2560V-8AU - 8 Bit MCU, Low Power High Performance, AVR ATmega Family ATmega256X Series Microcontrollers, 8 MHz",
+        "Microcontroller Operating temperature: -40...85 \u00b0C Power supply: 1.8...5.5 V No. of I/Os: 86 No. of timers: 6 Extras: JTAG Package: TQFP-100 ADC resolution: 10 bit EEPROM: 4 KB Flash memory: 256 KB SRAM: 8 KB",
+        "MCU, 8BIT, ATMEGA, 8MHZ, TQFP-100; Product Range: AVR ATmega Family ATmega256X Series Microcontrollers; CPU Speed: 8MHz; Program Memory Size: 256KB; RAM Memory Size: 8KB; No. of Pins: 100Pins; MCU Case Style: TQFP; No. of I/O'",
+        "Manufacturer Atmel ;Part No: ATMEGA2560V-8AU ;Minimum Operating Supply Voltage: 1.8 V ;Program Memory Size: 256 KB ;Family: ATmega2560V ;Supplier_Package: TQFP ;;Family Name: ATmega Number of Timers: 6 Program ;Memory ;Type: Flash Number of Programmable I"
+      ],
+      "interface": [
+        "2-Wire",
+        "EBI/EMI",
+        "I2C",
+        "SPI",
+        "UART",
+        "USART"
+      ],
+      "min_voltage": 1.8,
+      "max_voltage": 5.5,
+      "output_type": [
+        "CMOS"
+      ],
+      "supply_current": 100.0,
+      "component_type": "mcu",
+      "original_name": "ATMEGA2560"
+    },
+    {
+      "id": "2-Wire",
+      "type": "interface"
+    },
+    {
+      "id": "100.0mA",
+      "type": "current",
+      "value": 100.0
+    },
+    {
+      "id": "ADXL335BCPZ",
+      "type": "component",
+      "mpn": "ADXL335BCPZ",
+      "manufacturer": "Analog Devices",
+      "descriptions": [
+        "SMALL, LOW POWER, 3-AXIS PLUS OR MINUS 3G ACCELEROMETER Analog Circuit, 1 Func, PQCC16",
+        "ANALOG DEVICES - ADXL335BCPZ - MEMS Accelerometer, 3-Axis, Analogue, X, Y, Z, \u00b1 3g, 1.8 V, 3.6 V, LFCSP",
+        "Accelerometer Triple \u00b13g 1.8V to 3.6V 270mV/g to 330mV/g 16-Pin LFCSP EP Tray",
+        "MEMS ACCELEROMETER, X/Y/Z, ANALOGUE; Sensing Range - Accelerometer:\u00b1 3.6g; Sensing Axis:X, Y, Z; Output Interface:-; Sensor Case / Package:LFCSP; No. of Pins:16Pins; Sensitivity Typ:300mV/g; Supply Voltage Min:1.8V; Qualification:- RoHS Compliant: Yes"
+      ],
+      "interface": [
+        "Analog"
+      ],
+      "min_voltage": 1.8,
+      "max_voltage": 3.6,
+      "output_type": [
+        "ANALOG"
+      ],
+      "supply_current": 16.0,
+      "component_type": "accelerometer",
+      "original_name": "ADXL335"
+    },
+    {
+      "id": "Analog",
+      "type": "interface"
+    },
+    {
+      "id": "ANALOG",
+      "type": "output_type"
+    },
+    {
+      "id": "16.0mA",
+      "type": "current",
+      "value": 16.0
+    },
+    {
+      "id": "ADXL203CE",
+      "type": "component",
+      "mpn": "ADXL203CE",
+      "manufacturer": "Analog Devices",
+      "descriptions": [
+        "Precision \u00b11.7 g, \u00b15 g, \u00b118 g Dual-Axis iMEMS\u00ae Accelerometer",
+        "Accelerometer Dual \u00b11.7g 3V to 6V 960mV/g to 1040mV/g 8-Pin CLCC Tube",
+        "MEMS ACCELEROMETER, X/Y, ANALOGUE, LCC; Sensing Range - Accelerometer:\u00b1 1.7g; Sensing Axis:X, Y; Output Interface:-; Sensor Case / Package:LCC; No. of Pins:8Pins; Sensitivity Typ:1000mV/g; Supply Voltage Min:3V; Supply Voltage Max:6VRoHS Compliant: Yes",
+        "Output Type = Analogue / Measurement Axis = X / Measurement Axis = Y / Sensitivity = 1.5 % / Sensor Type = iMEMS Accelerometer / Acceleration Range = \u00b11.7 g / Supply Current mA = 700 / Resolution mg = 1 / Supply Voltage Min. V = 3 / Supply Voltage Max. V = 6 / Operating Temperature Min. \u00b0C = -40 / Operating Temperature Max. \u00b0C = 125 / Package Type = CLCC / Pins = 8 / Mounting Type = SMD / Packaging = Tube / Length mm = 5 / Width mm = 2 / Height mm = 5"
+      ],
+      "interface": [
+        "Analog"
+      ],
+      "min_voltage": 3.0,
+      "max_voltage": 6.0,
+      "output_type": [
+        "ANALOG"
+      ],
+      "supply_current": 0.01,
+      "component_type": "accelerometer",
+      "original_name": "ADXL203"
+    },
+    {
+      "id": "0.01mA",
+      "type": "current",
+      "value": 0.01
+    },
+    {
+      "id": "D3172MMA7455L",
+      "type": "component",
+      "mpn": "D3172MMA7455L",
+      "manufacturer": "NXP Semiconductors",
+      "descriptions": [
+        "Accelerometer Triple \u00b12g/\u00b14g/\u00b18g 2.8V 14-Pin LGA",
+        "Acceleration Sensor Development Tools XYZ-AXIS DIGITAL ACCEL D",
+        "Development Kit For ZSTAR3 Accelerometer",
+        "DEV KIT, ZSTAR3, ACCELEROMETER; Silicon Manufacturer:Freescale; Silicon Core Number:MMA7455L; Kit Application Type:Sensor; Application Sub Type:Three-Axis Accelerometer; Kit Contents:Development Kit for MMA7455L; Features:Digital Sensor for ZSTAR3, SPI / I2C Interface; SVHC:No SVHC (20-Jun-2013)"
+      ],
+      "interface": [
+        "I2C",
+        "SPI"
+      ],
+      "min_voltage": 2.4,
+      "max_voltage": 3.6,
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 3.0,
+      "component_type": "accelerometer",
+      "original_name": "MMA7455L"
+    },
+    {
+      "id": "Digital",
+      "type": "output_type"
+    },
+    {
+      "id": "3.0mA",
+      "type": "current",
+      "value": 3.0
+    },
+    {
+      "id": "LSM6DSO32TR",
+      "type": "component",
+      "mpn": "LSM6DSO32TR",
+      "manufacturer": "STMicroelectronics",
+      "descriptions": [
+        "Accelerometer and 3D Gyroscope 3D Always-On 1.71V to 3.6V 0.55mA 14-Pin LGA T/R",
+        "3D Accelerometer and 3D Gyroscope Sensor Analog Output 1.8V 14-Pin VFLGA T/R",
+        "LSM6DSO32 Series 3.6 V 3D Digital Accelerometer and 3D Digital Gyroscope -LGA-14",
+        "Inemo Inertial Module, Lga-4; Sensor Type:Accelerometer, Gyroscope; Sensing Axis:X, Y, Z; Supply Voltage Min:1.71V; Supply Voltage Max:3.6V; Sensor Case/Package:Lga; No. Of Pins:14Pins; Output Interface:I2C, I3C, Spi Rohs Compliant: Yes |Stmicroelectronics LSM6DSO32TR"
+      ],
+      "interface": [
+        "Analog",
+        "SPI",
+        "I2C",
+        "Digital"
+      ],
+      "min_voltage": 1.62,
+      "max_voltage": 3.6,
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 0.00055,
+      "component_type": "accelerometer",
+      "original_name": "LSM6DSO32"
+    },
+    {
+      "id": "0.00055mA",
+      "type": "current",
+      "value": 0.00055
+    },
+    {
+      "id": "BMI088",
+      "type": "component",
+      "mpn": "BMI088",
+      "manufacturer": "Bosch Tools",
+      "descriptions": [
+        "BMI088 Series 3.6 V 6 Axis Digital Output Accelerometer Motion Sensor - LGA-16",
+        "Inertial Measurement Unit Digital Output 2.5V/3.3V Automotive 16-Pin LGA",
+        "Attitude Sensor/Toggle Instrument",
+        "IMU ACCEL 16bit GYRO 16bit SMD"
+      ],
+      "interface": [
+        "Digital"
+      ],
+      "min_voltage": 2.5,
+      "max_voltage": 3.6,
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 6.0,
+      "component_type": "accelerometer",
+      "original_name": "BMI088"
+    },
+    {
+      "id": "6.0mA",
+      "type": "current",
+      "value": 6.0
+    },
+    {
+      "id": "ICM-42688-P",
+      "type": "component",
+      "mpn": "ICM-42688-P",
+      "manufacturer": "InvenSense",
+      "descriptions": [
+        "Accelerometer and Gyroscope 6-Axis MEMS Motion Tracking Device Digital-OUT 14-Pin LGA T/R",
+        "Next gen low-Power, High-Performance Integrated 6-Axis MEMS MotionTracking Device",
+        "High Precision, 6-Axis MEMS MotionTrackingTM Device",
+        "IMU (Inertial Measurement Unit), 6-Axis, Accelerometer, Gyroscope",
+        "MEMS MOTION TRACKING DEVICE/6-AXIS/LGA; Sensor Type:-; Sensing Axis:X, Y, Z; Supply Voltage Min:1.71V; Supply Voltage Max:3.6V; Sensor Case / Package:LGA; No. of Pins:14Pins; Sensing Range - Accelerometer:\u00b1 2g, \u00b1 4g, \u00b1 8g, \u00b1 16g RoHS Compliant: Yes"
+      ],
+      "interface": [
+        "Digital"
+      ],
+      "min_voltage": 1.71,
+      "max_voltage": 3.6,
+      "output_type": [
+        "Analog",
+        "Digital"
+      ],
+      "supply_current": 0.01,
+      "component_type": "accelerometer",
+      "original_name": "ICM-42688-P"
+    },
+    {
+      "id": "LSM6DSOXTR",
+      "type": "component",
+      "mpn": "LSM6DSOXTR",
+      "manufacturer": "STMicroelectronics",
+      "descriptions": [
+        "LSM6DSOX: 3.6 V 3 Axis Accelerometer Gyroscope iNEMO Inertial Module - LGA-14L",
+        "3D Accelerometer and 3D Gyroscope Sensor Digital Output 1.8V 14-Pin LGA T/R",
+        "STMICROELECTRONICS - LSM6DSOXTR - Modul MEMS, seria iNEMO LSM6D, IMU, 3V do 3.6V, \u00b116g, LGA-14",
+        "iNEMO inertial module with Machine Learning Core, Finite State Machine and advanced Digital Functions. Ultra-low power for battery operated IoT, Gaming, Wearable and Personal Electronics., 1.71V to 3.6V, -40\u00b0C to 85\u00b0C, VFLGA-14L, RoHS",
+        "Mems Module, 3D Gyroscope, Lga-14; Sensor Type:Accelerometer, Gyroscope; Sensing Axis:X, Y, Z; Supply Voltage Min:1.71V; Supply Voltage Max:3.6V; Sensor Case/Package:Lga; No. Of Pins:14Pins; Output Interface:I2C, I3C, Spi Rohs Compliant: Yes |Stmicroelectronics LSM6DSOXTR"
+      ],
+      "interface": [
+        "SPI",
+        "I2C",
+        "Digital"
+      ],
+      "min_voltage": 1.62,
+      "max_voltage": 3.6,
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 3.0,
+      "component_type": "accelerometer",
+      "original_name": "LSM6DSOX"
+    },
+    {
+      "id": "D3172MMA7361LC",
+      "type": "component",
+      "mpn": "D3172MMA7361LC",
+      "manufacturer": "NXP Semiconductors",
+      "descriptions": [
+        "Acceleration Sensor Development Tools XYZ-AXIS DIGITAL ACCEL D",
+        "Xyz-Axis Digital Accel D |Nxp D3172MMA7361LC",
+        "XYZ-Axis Digital Accel D Board"
+      ],
+      "interface": [
+        "Analog",
+        "I2C",
+        "SPI"
+      ],
+      "min_voltage": 3.0,
+      "max_voltage": 5.0,
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 0.01,
+      "component_type": "accelerometer",
+      "original_name": "MMA7361L"
+    },
+    {
+      "id": "ADXL377BCPZ-RL",
+      "type": "component",
+      "mpn": "ADXL377BCPZ-RL",
+      "manufacturer": "Analog Devices",
+      "descriptions": [
+        "Accelerometer Triple \u00b1200g 1.8V to 3.6V 5.8mV/g to 7.2mV/g 16-Pin LFCSP T/R",
+        "Motion & Position Sensors Accelerometers 3-Axis High g Analog MEMS",
+        "The ADXL377 is a small, thin, low power, complete 3-axis accelerometer with signal conditioned voltage outputs. The ADXL377 measures acceleration resulting from motion, shock, or vibration with a typical full-scale range of \u00b1200 g. The user selects the bandwidth of the accelerometer using the CX, CY, and CZ capacitors at the XOUT, YOUT, and ZOUT pins. Bandwidths can be selected to suit the application, with a range of 0.5 Hz to 1300 Hz for the x-axis and y-axis and a range of 0.5 Hz to 1000 Hz for the z-axis. The ADXL377 is available in a small, low profile, 3 mm \u00d7 3 mm \u00d7 1.45 mm, 16-lead lead frame chip scale package (LFCSP_LQ). Applications Concussion and head trauma detection High force event detection"
+      ],
+      "interface": [
+        "CAN",
+        "Analog"
+      ],
+      "min_voltage": 1.8,
+      "max_voltage": 3.6,
+      "output_type": [
+        "ANALOG"
+      ],
+      "supply_current": 0.1,
+      "component_type": "mcu",
+      "original_name": "ADXL377"
+    },
+    {
+      "id": "H3LIS331DLTR",
+      "type": "component",
+      "mpn": "H3LIS331DLTR",
+      "manufacturer": "STMicroelectronics",
+      "descriptions": [
+        "H3LIS331DL Series 3.6 V \u00b1100/\u00b1200/\u00b1400 g 3-Axis Digital Accelerometer - TFLGA-16",
+        "MEMS motion sensor: low power high g 3-axis digital accelerometer",
+        "Accelerometer Triple +/-100g/+/-200g/+/-400g 2.5V 16-Pin TFLGA T/R",
+        "Accelerometer Triple \u00ef\u00bf\u00bd100/\u00ef\u00bf\u00bd200/\u00ef\u00bf\u00bd400g 2.16V to 3.6V 16-Pin LGA T/R",
+        "IC, Accelerometer, 3 Axis, 2.5-3.3V, QFN, SMD",
+        "MEMS ACCELEROMETERS, 100G/200G/400G; Sensing Range - Accelerometer:\u00b1 100g, \u00b1 200g, \u00b1 400g; Sensing Axis:X, Y, Z; Output Interface:I2C, SPI; Sensor Case / Package:TFLGA; No. of Pins:16Pins; Supply Voltage Min:2.16V; Qualification:- RoHS Compliant: Yes"
+      ],
+      "interface": [
+        "I2C",
+        "SPI"
+      ],
+      "min_voltage": 2.16,
+      "max_voltage": 3.6,
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 3.0,
+      "component_type": "accelerometer",
+      "original_name": "H3LIS331DL"
+    },
+    {
+      "id": "LM358DR2G",
+      "type": "component",
+      "mpn": "LM358DR2G",
+      "manufacturer": "onsemi",
+      "descriptions": [
+        "Operational Amplifier, 2-Channels, 1 MHz, 0.6 V/us, 3 V to 32 V, 8 Pins, SOIC",
+        "ROHS3Compliant EAR99 LM358 Tape & Reel (TR) op amp amplifier circuit 5mm 0.5muA 9V 65dB",
+        "LM Series 32 V General Purpose Surface Mount Operational Amplifier - SOIC-8",
+        "Integrated Circuit Operational Amplifier; CH:2; 1MHz; 3-32V; 0+70 deg.C; SMD; SO8",
+        "OP Amp Dual General Purpose \u00b116 Volt32 Volt 8-Pin SOIC N Tape and Reel",
+        "Operational Amplifier, Single Supply, Dual",
+        "Operational Amplifier Dual 3-32V SOIC8",
+        "OP AMP, DUAL, 1MHZ, 0.6V/US, SOIC-8; Gain Bandwidth Product:1MHz; Supply Voltage Range:3V to 32V; IC Case / Package:SOIC; No. of Pins:8Pins; Amplifier Type:Low Bias Current; IC Mounting:Surface Mount; Operating Temperature Min:0\u00b0C RoHS Compliant: Yes"
+      ],
+      "interface": [
+        "Analog",
+        "I2C"
+      ],
+      "min_voltage": 3.0,
+      "max_voltage": 32.0,
+      "output_type": [
+        "Analog",
+        "Digital"
+      ],
+      "supply_current": 0.005,
+      "component_type": "temp_sensor",
+      "original_name": "LM35"
+    },
+    {
+      "id": "0.005mA",
+      "type": "current",
+      "value": 0.005
+    },
+    {
+      "id": "TC74A5-5.0VCTTR",
+      "type": "component",
+      "mpn": "TC74A5-5.0VCTTR",
+      "manufacturer": "Microchip",
+      "descriptions": [
+        "SENSOR DIGITAL -40C-125C SOT23-5 \"Temperature Sensor Digital, Local -40\u00b0C ~ 125\u00b0C 7 b SOT-23-5\"",
+        "TC74 Series SMD 5.5 V Tiny Serial Digital Thermal Sensor - SOT-23-5",
+        "MICROCHIP - TC74A5-5.0VCTTR - Temperature Sensor IC, Voltage, 2 C, -40C, +125C, SOT-23, 5 RoHS Compliant: Yes",
+        "SOT-23 Serial Digital Thermal Sensor (Default Address)",
+        "Temp Sensor Digital Serial (2-Wire, I2C, SMBus) 5-Pin SOT-23 T/R",
+        "Serial (Digital) Output, 2.7 to 5.5V, SOT-23-5, RoHS",
+        "Microchip TC74A5-5.0VCTTR Temperature Sensor 5-Pin SOT-23, -40 - +125 degC | Microchip Technology Inc. TC74A5-5.0VCTTR",
+        "Temp Sensors - Serial Output - SMBus  Digital Thermal",
+        "SENSOR DIGITAL -40C-125C SOT23-5"
+      ],
+      "interface": [
+        "2-Wire",
+        "I2C",
+        "SMBus",
+        "Serial"
+      ],
+      "min_voltage": 2.7,
+      "max_voltage": 5.5,
+      "output_type": [
+        "Digital",
+        "I2C"
+      ],
+      "supply_current": 74.0,
+      "component_type": "temp_sensor",
+      "original_name": "TC74"
+    },
+    {
+      "id": "SMBus",
+      "type": "interface"
+    },
+    {
+      "id": "Serial",
+      "type": "interface"
+    },
+    {
+      "id": "74.0mA",
+      "type": "current",
+      "value": 74.0
+    },
+    {
+      "id": "MCP9700DM-PCTL",
+      "type": "component",
+      "mpn": "MCP9700DM-PCTL",
+      "manufacturer": "Microchip",
+      "descriptions": [
+        "BOARD DEMO FOR PICTAIL MCP9700 MCP9700 PICtail\u2122 Temperature Sensor Evaluation Board",
+        "MCP9700 Temperature and Humidity Sensor Demonstration Board Automotive AEC-Q100",
+        "Demo/Evaluation Boards and Development Kits Temp-to-Vltg Conv PICtail Demo BRD",
+        "MCP9700 TEMPERATURE-TO-VOLTAGE CONVERTER PICTAILOe DEMO BOARD | Microchip Technology Inc. MCP9700DM-PCTL",
+        "MCP9700 Thermal Sensor PICtail Demo Board",
+        "Pic16F676, Pi, Thermal Sensor, Demo Board; Silicon Manufacturer:Microchip; Silicon Core Number:Mcp9700; Kit Application Type:-; Application Sub Type:-; Core Architecture:Pic; Core Sub-Architecture:Pic16; Silicon Family Name:Pictail Rohs Compliant: Na |Microchip MCP9700DM-PCTL"
+      ],
+      "interface": [
+        "Analog"
+      ],
+      "min_voltage": 3.0,
+      "max_voltage": 5.5,
+      "output_type": [
+        "TTL",
+        "Digital"
+      ],
+      "supply_current": 0.1,
+      "component_type": "mcu",
+      "original_name": "MCP9700"
+    },
+    {
+      "id": "TTL",
+      "type": "output_type"
+    },
+    {
+      "id": "TMP117MAIDRVR",
+      "type": "component",
+      "mpn": "TMP117MAIDRVR",
+      "manufacturer": "Texas Instruments",
+      "descriptions": [
+        "0.1\u00b0C digital temperature sensor, 48-bit EEPROM, PT100/PT1000 RTD replacement 6-WSON 0 to 85",
+        "HIGH-ACCURACY, LOW-POWER, DIGITAL TEMPERATURE SENSOR Serial Switch/Digital Sensor, 16 Bit(s), 0.1Cel, Square, Surface Mount",
+        "Tape & Reel (TR) 2-WIRE INTERFACE Standby Mode Shutdown Mode One-Shot Programmable Limit 16 Digital, Local Temperature Sensor 2mm 1.8V~5.5V \u00b10.1C (\u00b10.2C) 16b"
+      ],
+      "interface": [
+        "Serial",
+        "Digital"
+      ],
+      "min_voltage": 1.8,
+      "max_voltage": 5.5,
+      "output_type": [
+        "Analog",
+        "Digital"
+      ],
+      "supply_current": 0.01,
+      "component_type": "accelerometer",
+      "original_name": "TMP117"
+    },
+    {
+      "id": "SHT40I-AD1B-R2",
+      "type": "component",
+      "mpn": "SHT40I-AD1B-R2",
+      "manufacturer": "Sensirion",
+      "descriptions": [
+        "0 ~ 100% RH I\u00b2C \u00b11.8% RH 4 s Surface Mount Humidity and Temperature Sensor",
+        "Humidity/Temperature Sensor Digital Serial (I2C) 4-Pin DFN EP T/R",
+        "Humidity & Temperature Sensor I2C DFN4 Industrial SHT40I-AD1B-R2",
+        "HUMIDITY/TEMPE SENSOR, -40TO125DEG C ROHS COMPLIANT: YES",
+        "Humidity And Temperature Sensor",
+        "DFN4 DIG HUMID SENS 4TH GEN BS"
+      ],
+      "interface": [
+        "Serial",
+        "I2C",
+        "Digital"
+      ],
+      "min_voltage": 3.0,
+      "max_voltage": 5.5,
+      "output_type": [
+        "Analog",
+        "Digital"
+      ],
+      "supply_current": 0.005,
+      "component_type": "temp_sensor",
+      "original_name": "SHT40"
+    },
+    {
+      "id": "HDC2080DMBR",
+      "type": "component",
+      "mpn": "HDC2080DMBR",
+      "manufacturer": "Texas Instruments",
+      "descriptions": [
+        "2% RH ultra-low-power digital relative humidity sensor, interrupt/DRDY 6-WSON -40 to 125",
+        "Humidity/Temperature Sensor \u00b1 2%RH/\u00b1 0.2\u00b0C Digital 0%RH to 100%RH 8s 6-Pin WSON T/R",
+        "SENSOR HUMIDITY \"Humidity, Temperature 0 ~ 100% RH I2C \u00b12% RH 8 s Surface Mount\"",
+        "Humidity And Temperature Sensor, Digital, 6 Pin, Plastic",
+        "IC ADC 12BIT 8CH 40MSPS 80HTQFP",
+        "Product Description Demo for Development."
+      ],
+      "interface": [
+        "I2C"
+      ],
+      "min_voltage": 1.62,
+      "max_voltage": 3.6,
+      "output_type": [
+        "Analog",
+        "Digital"
+      ],
+      "supply_current": 0.005,
+      "component_type": "temp_sensor",
+      "original_name": "HDC2080"
+    },
+    {
+      "id": "MAX31855KASA+",
+      "type": "component",
+      "mpn": "MAX31855KASA+",
+      "manufacturer": "Analog Devices",
+      "descriptions": [
+        "MAX31855 Series 3.6 V 900 uA 470.6 mW Thermocouple-to-Digital Converter - SOIC-8",
+        "Cold-Junction Compensated Thermocouple-to-Digital Converter",
+        "Accurate Thermocouple-to-Digital Converter IC Simplifies Designs and Lowers System Cost",
+        "Temp Sensor Digital Serial (SPI) Automotive 8-Pin SOIC N",
+        "Sensor Interface Thermocouple To Digital Converter",
+        "TEMPERATURE SENSOR, 2DEG C, NSOIC-8",
+        "MAX31855 3.6V 900muA 1.5mm 1.75B",
+        "SOP-8 ADC/DAC - Specialized ROHS",
+        "SPECIALTY ANALOG CIRCUIT PDSO8",
+        "Temperature Sensor, 2Deg C, Nsoic-8; Sensor Output Type:Digital; Accuracy:\u00b1 2\u00b0C; Sensor Case/Package:Nsoic; No. Of Pins:8Pins; Supply Voltage Min:3V; Supply Voltage Max:3.6V; No. Of Channels:1Channels; Resolution:14 Bits Rohs Compliant: Yes |Maxim Integrated/analog Devices MAX31855KASA+"
+      ],
+      "interface": [
+        "SPI"
+      ],
+      "min_voltage": 3.0,
+      "max_voltage": 3.6,
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 8.0,
+      "component_type": "temp_sensor",
+      "original_name": "MAX31855K"
+    },
+    {
+      "id": "8.0mA",
+      "type": "current",
+      "value": 8.0
+    },
+    {
+      "id": "DS18B20+PAR",
+      "type": "component",
+      "mpn": "DS18B20+PAR",
+      "manufacturer": "Analog Devices",
+      "descriptions": [
+        "High-Precision Temperature Monitoring with Minimal Connections Ideal for Multisensor Systems",
+        "Serial Switch/Digital Sensor, 12 Bit(s), 0.50Cel, Rectangular, 3 Pin, Through Hole Mount",
+        "MAXIM INTEGRATED PRODUCTS DS18B20+PAR Temperature Sensor IC, Open Drain,0.5C, -55 C, 100 C, TO-92, 3",
+        "Temp Sensor Digital Serial (1-Wire) 3-Pin TO-92 Bag",
+        "Programmable Resolution 1-Wire Digital Thermometer",
+        "1-WIRE DIGITAL THERMOMETER PROGR. TO-92",
+        "SENSOR TEMPERATURE 1-WIRE TO92-3",
+        "SENSOR DIGITAL -55C-125C TO92-3",
+        "TO92 PROG RESOLUTION 1-WIRE DI",
+        "Board Mount Temperature Sensors",
+        "SENSOR, TEMPERATURE, NV ALARM, 3TO92; IC Output Type: Open Drain; Sensing Accuracy Range: \u00b1 0.5\u00b0C; Sensing Temperature Min: -55\u00b0C; Sensing Temperature Max: 100\u00b0C; Sensor Case Style: TO-92; No. of Pins: 3Pins; Supply Voltage Min: 3V; Supply Voltage Max: 5.5V; Product Range: -; Automotive Qualification Standard: -; MSL: -; SVHC: No SVHC (15-Jun-2015); Resolution (Bits): 12bit; Supply Current: 1mA; Supply Voltage Range: 3V to 5.5V; Temperature Sensing Range: -55\u00b0C to +125\u00b0C"
+      ],
+      "interface": [
+        "Serial"
+      ],
+      "min_voltage": 3.0,
+      "max_voltage": 5.5,
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 0.001,
+      "component_type": "accelerometer",
+      "original_name": "DS18B20"
+    },
+    {
+      "id": "0.001mA",
+      "type": "current",
+      "value": 0.001
+    },
+    {
+      "id": "MAX6675ISA+",
+      "type": "component",
+      "mpn": "MAX6675ISA+",
+      "manufacturer": "Analog Devices",
+      "descriptions": [
+        "Cold-Junction-Compensated K-Thermocouple-to-Digital Converter (0\u00b0C to +1024\u00b0C)",
+        "MAX6675 IC Thermocouple to Digital Converter -20C~85C 4.9mm 1.5mA 2.6V",
+        "Sensor and Detector Interface 5.5V SPI 8-Pin SOIC N",
+        "Temp Sensor Digital Serial (SPI) 8-Pin SOIC N Tube",
+        "IC, CONV, TEMP TO DIGITAL, SPI, 8SOIC",
+        "K-Thermocouple to Dig Conv 0/+1024\u00b0C SO8",
+        "Analog Circuit, 1 Func, BICMOS, PDSO8",
+        "Temperature Sensor IC; Output Voltage:2.6V; Output Current:1.6mA; Accuracy:3\u00b0C; Supply Voltage Min:3V; Supply Voltage Max:5.5V; Termination Type:SMD; Package/Case:8-SOIC; No. of Pins:8; Leaded Process Compatible:Yes ;RoHS Compliant: Yes"
+      ],
+      "interface": [
+        "Serial",
+        "SPI",
+        "Analog",
+        "Digital"
+      ],
+      "min_voltage": 2.6,
+      "max_voltage": 5.5,
+      "output_type": [
+        "CMOS"
+      ],
+      "supply_current": 8.0,
+      "component_type": "temp_sensor",
+      "original_name": "MAX6675"
+    },
+    {
+      "id": "MAX31856EVSYS#",
+      "type": "component",
+      "mpn": "MAX31856EVSYS#",
+      "manufacturer": "Analog Devices",
+      "descriptions": [
+        "MAX31856 Precision Thermocouple to Digital Converter Evaluation System",
+        "EVAL KIT, THERMOCOUPLE TO DIGITAL CONV",
+        "EVKIT EVALUATION SYSTEM FOR TH",
+        "EVAL KIT, THERMOCOUPLE TO DIGITAL CONV; Kit Application Type: Sensing - Temperature; Silicon Manufacturer: Maxim Integrated Products; Silicon Core Number: MAX31856; Application Sub Type: Thermocouple to Digital Converter; Kit Contents: Eval Module MAX31856PMB1, USB2PMB1 Adapter Board, Mini-USB Cable, K-Type Thermocouple; Product Range: -; SVHC: No SVHC (15-Jan-2018)"
+      ],
+      "interface": [
+        "USB",
+        "Digital"
+      ],
+      "min_voltage": 3.0,
+      "max_voltage": 5.5,
+      "output_type": [
+        "Analog",
+        "Digital"
+      ],
+      "supply_current": 1.0,
+      "component_type": "temp_sensor",
+      "original_name": "MAX31856"
+    },
+    {
+      "id": "1.0mA",
+      "type": "current",
+      "value": 1.0
+    },
+    {
+      "id": "GP2Y0A21YK0F",
+      "type": "component",
+      "mpn": "GP2Y0A21YK0F",
+      "manufacturer": "Sharp",
+      "descriptions": [
+        "Diffuse Photoelectric Sensor, 100mm Min, 800mm Max, 0.25-0.55V, Rectangular, Panel Mount",
+        "SENSOR, DISTANCE, ANALOGUE; Sensing Range Max: 80cm; Sensing Method: Retroreflective; Sensor Output: Analogue; Product Range: -; Connection Method: -; Supply Voltage DC Min: 4.5V; Supply V; Available until stocks are exhausted",
+        "SENSOR, DISTANCE, ANALOGUE; Detecting Distance:80 cm; External Depth:13.5mm; External Length / Height:13mm; External Width:44.75mm; Measuring Range:10cm to 80cm; Operating Temperature Max:60\u00b0C; Operating Temperature Min:-10\u00b0C; Operating Temperature Range:-10\u00b0C to +60\u00b0C; Output Type:Analogue; Response Time:39ms; Supply Current:40mA; Supply Voltage Max:5.5V; Supply Voltage Min:4.5V; Voltage Rating V DC:7V"
+      ],
+      "interface": [
+        "Analog"
+      ],
+      "min_voltage": 0.55,
+      "max_voltage": 7.0,
+      "output_type": [
+        "ANALOG",
+        "Digital"
+      ],
+      "supply_current": 0.04,
+      "component_type": "temp_sensor",
+      "original_name": "GP2Y0A21YK"
+    },
+    {
+      "id": "0.04mA",
+      "type": "current",
+      "value": 0.04
+    },
+    {
+      "id": "HC-SR04",
+      "type": "component",
+      "mpn": "HC-SR04",
+      "manufacturer": "OSEPP",
+      "descriptions": [
+        "Ultrasonic Sensor Module, Rectangular,20-4000 mm,5 V,15 mA, Arduino Compatible | OSEPP HC-SR04",
+        "ULTRASONIC SENSOR MODULE"
+      ],
+      "interface": [],
+      "min_voltage": 5.0,
+      "max_voltage": 5.0,
+      "output_type": [],
+      "supply_current": 0.015,
+      "component_type": "misc",
+      "original_name": "HCSR04"
+    },
+    {
+      "id": "0.015mA",
+      "type": "current",
+      "value": 0.015
+    },
+    {
+      "id": "GP2Y0A02YK0F",
+      "type": "component",
+      "mpn": "GP2Y0A02YK0F",
+      "manufacturer": "Sharp",
+      "descriptions": [
+        "Diffuse Photoelectric Sensor, 200mm Min, 1500mm Max, 0.25-0.55V, Rectangular, Panel Mount",
+        "SENSOR, DISTANCE, ANALOGUE O/P; Sensing Range Max: 150cm; Sensing Method: Reflective; Sensor Output: Analogue; Product Range: -; Connection Method: -; Supply Voltage DC Min: 4.5V; Supply V; Available until stocks are exhausted",
+        "SENSOR, DISTANCE, ANALOGUE O/P; Detecting Distance:20cm to 150cm; External Depth:18.9mm; External Length / Height:13.5mm; External Width:44.5mm; Forward Current If(AV):50mA; Operating Current DC:50mA; Operating Temperature Range:-10\u00b0C to +60\u00b0C; Supply Voltage Max:5.5VDC; Supply Voltage Min:4.5VDC; Voltage Rating V DC:7V; Voltage Vf Typ:5.5V"
+      ],
+      "interface": [
+        "Analog"
+      ],
+      "min_voltage": 0.55,
+      "max_voltage": 7.0,
+      "output_type": [
+        "ANALOG"
+      ],
+      "supply_current": 0.05,
+      "component_type": "temp_sensor",
+      "original_name": "GP2Y0A02YK0F"
+    },
+    {
+      "id": "0.05mA",
+      "type": "current",
+      "value": 0.05
+    },
+    {
+      "id": "VL53L1X-SATEL",
+      "type": "component",
+      "mpn": "VL53L1X-SATEL",
+      "manufacturer": "STMicroelectronics",
+      "descriptions": [
+        "Breakout Board Based on the VL53L1X Long Distance Ranging Time-of-Flight Sensor",
+        "BREAKOUT BOARD, TOF PROXIMITY SENSOR; Accessory Type: Breakout Board; For Use With: STMicroelectronics VL53L1X Time-of-Flight Proximity Sensor; Product Range: -; SVHC: No SVHC (27-Jun-20; Available until stocks are exhausted",
+        "Family Name = Sensor Modules / Product Type = Distance Sensor / Kit Contents = 2x VL53L1X Satellite Boards / Interfaces = I\u00b2C / Supply Voltage Min. V = 2.8 / Supply Voltage Max. V = 5"
+      ],
+      "interface": [
+        "I2C"
+      ],
+      "min_voltage": 3.0,
+      "max_voltage": 5.5,
+      "output_type": [
+        "Analog",
+        "Digital"
+      ],
+      "supply_current": 0.02,
+      "component_type": "proximity",
+      "original_name": "VL53L1X"
+    },
+    {
+      "id": "0.02mA",
+      "type": "current",
+      "value": 0.02
+    },
+    {
+      "id": "TMF8801-DB",
+      "type": "component",
+      "mpn": "TMF8801-DB",
+      "manufacturer": "Osram",
+      "descriptions": [
+        "Distance Sensor Development Tool 1D TOF",
+        "TMF8801 Sensor ToF Daughter Board"
+      ],
+      "interface": [
+        "Analog",
+        "Digital"
+      ],
+      "min_voltage": 3.0,
+      "max_voltage": 5.5,
+      "output_type": [
+        "Analog",
+        "Digital"
+      ],
+      "supply_current": 0.02,
+      "component_type": "proximity",
+      "original_name": "TMF8801"
+    },
+    {
+      "id": "VL53L3CXV0DH/1",
+      "type": "component",
+      "mpn": "VL53L3CXV0DH/1",
+      "manufacturer": "STMicroelectronics",
+      "descriptions": [
+        "VL53L3CX Series 2.6 to 3.5 V Surface Mount Time-of-Flight Ranging Sensor",
+        "Proximity Sensor 1cm 2.6V to 3.5VDC 12-Pin OLGA T/R",
+        "Time-of-Flight Digital Output 3m 12-Pin LGA T/R",
+        "Time-of-Flight ranging sensor with multi target detection, 2.6V, 3.5V, Optical, RoHS, Tape And Reel",
+        "VL53L3CXV0DH/1, ToF Rangine Sensor",
+        "PROXIMITY SENSOR, DIGITAL, -20TO85DEG C;",
+        "TIME-OF-FLIGHT PROXIMITY SENSOR"
+      ],
+      "interface": [
+        "Digital"
+      ],
+      "min_voltage": 1.6,
+      "max_voltage": 3.5,
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 0.02,
+      "component_type": "proximity",
+      "original_name": "VL53L3CX"
+    },
+    {
+      "id": "MB1013-000",
+      "type": "component",
+      "mpn": "MB1013-000",
+      "manufacturer": "MaxBotix",
+      "descriptions": [
+        "ULTRASONIC SENSOR HRLV-MAXSONAR"
+      ],
+      "interface": [],
+      "min_voltage": 0.0,
+      "max_voltage": 0.0,
+      "output_type": [],
+      "supply_current": 0.05,
+      "component_type": "misc",
+      "original_name": "MB1013"
+    },
+    {
+      "id": "SRF0504-402Y",
+      "type": "component",
+      "mpn": "SRF0504-402Y",
+      "manufacturer": "Bourns",
+      "descriptions": [
+        "Common Mode Chokes Dual 2.8uH 4kOhm 100kHz 0.2A 0.3Ohm DCR SMD T/R",
+        "COmmON MODE CHOKE, 2.5UH, 200mA 20%; DC; DC Current Max:200mA; Resistance Max:0.3ohm; Impedance Typ:4kohm;",
+        "Power Line Filter 100MHz 0.2A 50VDC Solder SMD",
+        "Product Description Demo for Development.",
+        "Inductor, SMD, 2.8uH, 200mA, 300mOhm",
+        "INDUCTOR COMMON MODE 2.5UH 0.2A",
+        "COMM MODE CHOKE DUAL 2.8UH 4K OHM SMD",
+        "Common Mode Choke, 2.5Uh, 200Ma 20%; Dc Current Rating:200Ma; Inductance:2.8\u039ch; Product Range:Srf0504 Series; Impedance:4Kohm; Product Length:5.2Mm; Product Width:5Mm; Product Height:4.8Mm; Qualification:- Rohs Compliant: Yes |Bourns SRF0504-402Y"
+      ],
+      "interface": [
+        "UART",
+        "SPI",
+        "I2C"
+      ],
+      "min_voltage": 50.0,
+      "max_voltage": 50.0,
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 0.2,
+      "component_type": "communication",
+      "original_name": "SRF05"
+    },
+    {
+      "id": "0.2mA",
+      "type": "current",
+      "value": 0.2
+    },
+    {
+      "id": "GP2Y0A710K0F",
+      "type": "component",
+      "mpn": "GP2Y0A710K0F",
+      "manufacturer": "Sharp",
+      "descriptions": [
+        "Distance Measuring Sensor Unit Measuring distance: 100 to 550 cm Analog output type",
+        "SENSOR, DISTANCE, ANALOG, IR, 550CM; Sensing Range Max: 550cm; Sensing Method: Infrared; Sensor Output: Analogue; Product Range: GP2Y0A710K0F; Connection Method: Cab; Available until stocks are exhausted Alternative available",
+        "DISTANCE MEASURING SENSOR; Sensor Output1:Analogue; Supply Voltage Range DC:4.5V to 5.5V; Detecting Distance:100cm to 550cm; External Depth:22.5mm; External Length / Height:17.6mm; External Width:58mm; Operating Current DC:50mA; Supply Voltage Max:5.5VDC; Supply Voltage Min:4.5VDC"
+      ],
+      "interface": [
+        "Analog"
+      ],
+      "min_voltage": 4.5,
+      "max_voltage": 5.5,
+      "output_type": [
+        "Analog"
+      ],
+      "supply_current": 0.05,
+      "component_type": "proximity",
+      "original_name": "GP2Y0A710K0F"
+    },
+    {
+      "id": "ULN2003A",
+      "type": "component",
+      "mpn": "ULN2003A",
+      "manufacturer": "STMicroelectronics",
+      "descriptions": [
+        "ULN Series 50 V 500 mA High Voltage High Current Seven Darlington Array - DIP-16",
+        "ARRAY; DIP16; 7-CHANNEL DARLINGTON; 50V; 30V; 500MA COLLECTOR; 25MA IB; 60",
+        "DARLINGTON ARRAY 7NPN, 2003, DIP16; Transistor Polarity: NPN; Collector Emitter Voltage V(br)ceo: 50V; Power Dissipation Pd: 2.25W; DC Collector Current: 500mA; DC Current Gain hFE: 1000hFE; Transistor Case Style: DIP; No. of"
+      ],
+      "interface": [
+        "PWM",
+        "Digital"
+      ],
+      "min_voltage": 30.0,
+      "max_voltage": 50.0,
+      "output_type": [
+        "PWM",
+        "Digital"
+      ],
+      "supply_current": 16.0,
+      "component_type": "motor_driver",
+      "original_name": "ULN2003A"
+    },
+    {
+      "id": "PWM",
+      "type": "interface"
+    },
+    {
+      "id": "L293DD013TR",
+      "type": "component",
+      "mpn": "L293DD013TR",
+      "manufacturer": "STMicroelectronics",
+      "descriptions": [
+        "L293DD Series High Voltage Push - Pull Four Channel Driver with Diodes - SOIC-20",
+        "600mA Brush DC Motor 4.5V~36V Parallel SOP-20-300mil Motor Driver ICs ROHS",
+        "MOTOR DRIVER, DC, STEPPER, 0.6A, SOIC-20; Motor Type: Stepper and DC Brush; No. of Outputs: 4Outputs; Output Current: 600mA; Output Voltage: -; Driver Case Style: SOIC; No. of Pins: 20Pins; Supply Voltage Min: 4.5V; Supply Voltage Max: 36V; Operating Temperature Min: -40\u00b0C; Operating Temperature Max: 150\u00b0C; Product Range: -; Automotive Qualification Standard: -; RoHS Phthalates Compliant: Yes; MSL: MSL 3 - 168 hours; SVHC: No SVHC (12-Jan-2017)"
+      ],
+      "interface": [
+        "Parallel"
+      ],
+      "min_voltage": 4.5,
+      "max_voltage": 36.0,
+      "output_type": [
+        "Analog",
+        "Digital"
+      ],
+      "supply_current": 0.6,
+      "component_type": "temp_sensor",
+      "original_name": "L293D"
+    },
+    {
+      "id": "Parallel",
+      "type": "interface"
+    },
+    {
+      "id": "0.6mA",
+      "type": "current",
+      "value": 0.6
+    },
+    {
+      "id": "TB6612FNG,C,8,EL",
+      "type": "component",
+      "mpn": "TB6612FNG,C,8,EL",
+      "manufacturer": "Toshiba",
+      "descriptions": [
+        "Dc Motor Driver, -20 To 85Deg C, Ssop-24 Rohs Compliant: Yes |Toshiba TB6612FNG(O, C,8,EL",
+        "DC Motor Driver 2.7V to 5.5V 24-Pin SSOP Embossed T/R",
+        "DC Motor Driver 1.2A 15V Low Ron SSOP24",
+        "SSOP-24_208mil Motor Driver ICs ROHS",
+        "RoHS Compliant Parallel Driver - Fully Integrated Control and Power Stage Surface Mount motor controller -20C~85C TA 1A 2.5V~13.5V"
+      ],
+      "interface": [
+        "Parallel"
+      ],
+      "min_voltage": 2.5,
+      "max_voltage": 5.5,
+      "output_type": [
+        "PWM",
+        "Digital"
+      ],
+      "supply_current": 1.2,
+      "component_type": "motor_driver",
+      "original_name": "TB6612FNG"
+    },
+    {
+      "id": "1.2mA",
+      "type": "current",
+      "value": 1.2
+    },
+    {
+      "id": "TMC5160-EVAL",
+      "type": "component",
+      "mpn": "TMC5160-EVAL",
+      "manufacturer": "Analog Devices",
+      "descriptions": [
+        "TMC5160 Universal High Voltage Controller/Driver for Two-Phase Bipolar Stepper Motor Evaluation Board",
+        "Stepper motor cDriver 8 to 60V, for external N-Fets with S/D and SPI Interface, 256 \u00b5Steps, SixPoint ramp controller, CoolStep, StallGuard2, SpreadCycle and StealthChop2",
+        "Family Name = Development Boards / Product Type = Evaluation Board / Interfaces = SPI / Interfaces = STEP / DIR / Interfaces = UART / Supply Voltage Min. V = 3.3 / Supply Voltage Max. V = 5",
+        "Eval Board, Stepper Motor Controller; Application Sub Type:2 Phase Stepper Motor Controller/Driver; Silicon Manufacturer:Analog Devices; Kit Application Type:Motor Control; Silicon Core Number:Tmc5160-Ta; Product Range:- Rohs Compliant: Yes |Trinamic/analog Devices TMC5160-EVAL"
+      ],
+      "interface": [
+        "UART",
+        "SPI",
+        "Analog"
+      ],
+      "min_voltage": 60.0,
+      "max_voltage": 60.0,
+      "output_type": [
+        "PWM",
+        "Digital"
+      ],
+      "supply_current": 1.0,
+      "component_type": "motor_driver",
+      "original_name": "TMC5160"
+    },
+    {
+      "id": "TMC4671+TMC6100-BOB",
+      "type": "component",
+      "mpn": "TMC4671+TMC6100-BOB",
+      "manufacturer": "Analog Devices",
+      "descriptions": [
+        "Breakout Board for TMC4671/TMC6100 Hardware Servo Gate Controller/Driver Evaluation Board",
+        "Breakout Board with TMC4671 Servo Controller and TMC6200 Gate Driver, FOC",
+        "Breakout Board, Bdc & Bldc/Stepper Motor Rohs Compliant: Yes |Trinamic/analog Devices TMC4671+TMC6100-BOB",
+        "Breakout board with TMC4671 Se",
+        "TMC4671+TMC6100 Breakout Board",
+        "Fully integrated servo controller, providing Field Oriented Control for BLDC/PMSM and 2-phase Stepper Motors as well as DC motors and voice coils.",
+        "EVAL BOARD FOR TMC4671 TMC6100"
+      ],
+      "interface": [
+        "Analog"
+      ],
+      "min_voltage": 3.3,
+      "max_voltage": 12.0,
+      "output_type": [
+        "PWM",
+        "Digital"
+      ],
+      "supply_current": 1.0,
+      "component_type": "motor_driver",
+      "original_name": "TMC4671"
+    },
+    {
+      "id": "DRV8301DCA",
+      "type": "component",
+      "mpn": "DRV8301DCA",
+      "manufacturer": "Texas Instruments",
+      "descriptions": [
+        "IC MOTOR DRIVER 6V-60V 56HTSSOP Motor Driver Power MOSFET SPI 56-HTSSOP",
+        "Power MOSFET Tube DRV8301 General Purpose motor driver 60V 1.7A 6.1mm -40C~125C TA",
+        "65-V max 3-phase gate driver with buck regulator, current shunt amplifiers & SPI 56-HTSSOP -40 to 125",
+        "TSSOP-56-EP-6.1mm Motor Driver ICs ROHS",
+        "TEXAS INSTRUMENTS - DRV8301DCA - MOTOR, PREDRIVER, 3PH, 56HTSSOP",
+        "3-Phase Brushless DC Motor Predriver 56-Pin HTSSOP EP Tube",
+        "Motor, Predriver, 3Ph, 56Htssop; Motor Type:Three Phase Dc Brushless; No. Of Outputs:1Outputs; Output Current:1.7A; Output Voltage:-; Driver Case Style:Htssop; No. Of Pins:56Pins; Supply Voltage Min:8V; Supply Voltage Max:60V; Rohs Compliant: Yes |TEXAS INSTRUMENTS DRV8301DCA"
+      ],
+      "interface": [
+        "SPI"
+      ],
+      "min_voltage": 8.0,
+      "max_voltage": 60.0,
+      "output_type": [
+        "PWM",
+        "Digital"
+      ],
+      "supply_current": 1.7,
+      "component_type": "motor_driver",
+      "original_name": "DRV8301"
+    },
+    {
+      "id": "1.7mA",
+      "type": "current",
+      "value": 1.7
+    },
+    {
+      "id": "A4988SETTR-T",
+      "type": "component",
+      "mpn": "A4988SETTR-T",
+      "manufacturer": "Allegro MicroSystems",
+      "descriptions": [
+        "DMOS Tape & Reel (TR) A4988 General Purpose motor driver 35V 2A 2.79mm -20C~150C TJ",
+        "ALLEGRO MICROSYSTEMS - A4988SETTR-T - DMOS Microstepping Driver with Translator and Overcurrent Protection IC in QFN-28 Package",
+        "2A 3V~5.5V WQFN-28-EP(5x5) Motor Driver ICs ROHS",
+        "DMOS Stepping Motor Driver 28-Pin QFN EP T/R",
+        "MOTOR DRIVER, MICROSTEPPER, 28QFN; Motor Type:Stepper; No. of Outputs:2; Output Current:2A; Output Voltage:35V; Supply Voltage Range:3V to 5V; Driver Case Style:QFN; No. of Pins:28; Operating Temperature Range:-20\u00b0C to +85\u00b0C; MSL:MSL 2 - 1 year; SVHC:No SVHC (19-Dec-2011)"
+      ],
+      "interface": [
+        "Analog",
+        "I2C"
+      ],
+      "min_voltage": 3.0,
+      "max_voltage": 35.0,
+      "output_type": [
+        "Analog",
+        "Digital"
+      ],
+      "supply_current": 2.0,
+      "component_type": "temp_sensor",
+      "original_name": "A4988"
+    },
+    {
+      "id": "2.0mA",
+      "type": "current",
+      "value": 2.0
+    },
+    {
+      "id": "DRV8825PWPR",
+      "type": "component",
+      "mpn": "DRV8825PWPR",
+      "manufacturer": "Texas Instruments",
+      "descriptions": [
+        "IC MTR DRVR BIPLR 8.2-45V 28SSOP Bipolar Motor Driver Power MOSFET Logic 28-HTSSOP",
+        "45-V, 2.5-A bipolar stepper motor driver with current regulation and 1/32 microstepping 28-HTSSOP -40 to 85",
+        "Power MOSFET Tape & Reel (TR) DRV8825 General Purpose motor driver 24V 2.5A 4.4mm -40C~150C TJ",
+        "2.5A 8.2V~45V HTSSOP-28-EP Motor Driver ICs ROHS",
+        "Motor Driver, Stepper, Htssop-28; Motor Type:stepper; No. Of Outputs:1Outputs; Output Current:2.5A; Output Voltage:24V; Driver Case Style:htssop; No. Of Pins:28Pins; Supply Voltage Min:8.2V; Supply Voltage Max:45V; Product Range:- Rohs Compliant: Yes"
+      ],
+      "interface": [
+        "PWM",
+        "Digital"
+      ],
+      "min_voltage": 8.2,
+      "max_voltage": 45.0,
+      "output_type": [
+        "PWM",
+        "Digital"
+      ],
+      "supply_current": 2.5,
+      "component_type": "motor_driver",
+      "original_name": "DRV8825"
+    },
+    {
+      "id": "2.5mA",
+      "type": "current",
+      "value": 2.5
+    },
+    {
+      "id": "TB6600FG",
+      "type": "component",
+      "mpn": "TB6600FG",
+      "manufacturer": "Toshiba",
+      "descriptions": [
+        "Power MOSFET Tray General Purpose 2016 motor controller 8V~42V 4A -30C~85C TA",
+        "H-Bridge Motor Driver 64-Pin HQFP EP",
+        "Bipolar stepping motor drivers, 2-phase/1-2-phase/W1-2-phase/2W1-2-phase/4W1-2-phase excitation modes, Pseudo-sinewave drive (PWM chopper drive), High output current, Low R-on, Power-on reset circuit, IOUT(peak)=4.5A"
+      ],
+      "interface": [
+        "PWM"
+      ],
+      "min_voltage": 8.0,
+      "max_voltage": 42.0,
+      "output_type": [
+        "PWM"
+      ],
+      "supply_current": 4.5,
+      "component_type": "motor_driver",
+      "original_name": "TB6600"
+    },
+    {
+      "id": "4.5mA",
+      "type": "current",
+      "value": 4.5
+    },
+    {
+      "id": "LM386MMX-1/NOPB",
+      "type": "component",
+      "mpn": "LM386MMX-1/NOPB",
+      "manufacturer": "Texas Instruments",
+      "descriptions": [
+        "700-mW, mono, 5- to 18-V, analog input Class-AB audio amplifier 8-VSSOP 0 to 70",
+        "Audio Amp Speaker 1-CH Mono 0.325W Class-AB 8-Pin VSSOP T/R / IC AMP AUDIO PWR .325W AB 8VSSOP",
+        "IC AMP CLSS AB MONO 325MW 8VSSOP Amplifier IC 1-Channel (Mono) Class AB 8-VSSOP",
+        "Audio Amplifier, 0.325W, 1 Channel(s), 1 Func, Bipolar, PDSO8",
+        "AUDIO AMPLIFIER, CLASS AB, MSOP-8; Output Power:-; Amplifier Class:AB; No. of Channels:1 Channel; Supply Voltage Range:4V to 12V; Amplifier Case Style:MSOP; No. of Pins:8Pins; Load Impedance:4ohm; Operating Temperature M",
+        "AUDIO AMPLIFIER, CLASS AB, MSOP-8; Puissance de sortie: -; Classe d'amplificateur audio: AB; Nbre de voies: 1 voie; Gamme de tension d'alimentation: 4V \u00c3 12V; Type de bo\u00c3\u00aetier d'amplificateur: MSOP; Nombre de broches: 8Broche(s"
+      ],
+      "interface": [
+        "Analog"
+      ],
+      "min_voltage": 4.0,
+      "max_voltage": 12.0,
+      "output_type": [
+        "Analog",
+        "Digital"
+      ],
+      "supply_current": 70.0,
+      "component_type": "temp_sensor",
+      "original_name": "LM386"
+    },
+    {
+      "id": "70.0mA",
+      "type": "current",
+      "value": 70.0
+    },
+    {
+      "id": "TDA2030H",
+      "type": "component",
+      "mpn": "TDA2030H",
+      "manufacturer": "STMicroelectronics",
+      "descriptions": [
+        "Audio Amp Speaker 1-CH Mono 14W Class-AB 5-Pin(5+Tab) PENTAWATT Tube",
+        "STMICROELECTRONICS TDA2030HAudio Power Amplifier, AB, 1 Channel, 14 W,6V to18V, Pentawatt V, 5 Pins",
+        "IC,TDA2030H,AUDIO AMP 14W 28V <AZ",
+        "IC AMP AUDIO 18W HIFI PENTAWATT5",
+        "Audio Amplifier, 1 Func, PZIP5",
+        "18 W 1 CHANNEL AUDIO AMPLIFIER PZFM5",
+        "Power audio amplifier,TDA2030H",
+        "EAR99 TDA2030 Tube Short-Circuit and Thermal Protection audio amplifier 15V 9.2mm 18W x 1 @ 4Ohm 2muA",
+        "Audio/Video IC Pentawatt 5 (Hor.)",
+        "XxOP 0,022MHz xV/\u00b5s TO220-5 RoHSconf",
+        "Connector Accessories Coding Section Straight Red",
+        "AUDIO POWER AMPLIFIER, AB, 14W, PENTAWATTV-5; Output Power x Channels @ Load:14W x 1 @ 4Ohm; Audio Amplifier Type:AB; No. of Channels:1Channels; Supply Voltage Range:\u00b1 6V to \u00b1 18V; IC Case / Package:Pentawatt V; No. of Pins:5Pins RoHS Compliant: Yes"
+      ],
+      "interface": [
+        "I2S",
+        "Analog"
+      ],
+      "min_voltage": 12.0,
+      "max_voltage": 36.0,
+      "output_type": [
+        "Analog",
+        "Digital"
+      ],
+      "supply_current": 5.0,
+      "component_type": "audio",
+      "original_name": "TDA2030"
+    },
+    {
+      "id": "I2S",
+      "type": "interface"
+    },
+    {
+      "id": "5.0mA",
+      "type": "current",
+      "value": 5.0
+    },
+    {
+      "id": "PAM8403DR",
+      "type": "component",
+      "mpn": "PAM8403DR",
+      "manufacturer": "Diodes Inc.",
+      "descriptions": [
+        "Filterless 3W Class-D Stereo Audio Amplifier | IC AMP AUDIO 3W CLASS D 16SOIC",
+        "PAM8403 Series 5.5 V 3 W Filterless Class-D Stereo Audio Amplifier - SOIC-16",
+        "Amplifiers, Audio, 3W STEREO FILTERLESS CLASS-D AUDIO AMP | Diodes Inc PAM8403DR",
+        "Audio Power Amp, D, -40 To 85Deg C Rohs Compliant: Yes |Diodes Inc. PAM8403DR",
+        "Audio Amp Speaker 2-CH Stereo 3.2W Class-D 16-Pin SOP T/R",
+        "Class-D Stereo Audio Amp 5V 2x3W SOP16"
+      ],
+      "interface": [
+        "I2S",
+        "Analog"
+      ],
+      "min_voltage": 2.5,
+      "max_voltage": 5.5,
+      "output_type": [
+        "Analog",
+        "Digital"
+      ],
+      "supply_current": 16.0,
+      "component_type": "audio",
+      "original_name": "PAM8403"
+    },
+    {
+      "id": "CS43L22-CNZ",
+      "type": "component",
+      "mpn": "CS43L22-CNZ",
+      "manufacturer": "Cirrus Logic",
+      "descriptions": [
+        "DAC 1-CH Delta-Sigma 24-bit 40-Pin QFN EP Rail",
+        "Surface Mount QUAD NO LEAD Not Qualified digital to analog converter -40C 950mum 3B 96ksps",
+        "IC, SM, STEREO DAC, DELTA SIGMA; Resolution (Bits):24bit; Sampling Rate:96kSPS; Data Interface:Serial; Supply Voltage Range:1.6V to 5V, 1.8V to 2.5V, 1.8V to 3.3V; ADC / DAC Case Style:QFN; No. of Pins:40Pins; Input Channel Type:Serial; Operating Temperature Min:-40\u00b0C; Operating Temperature Max:85\u00b0C; Product Range:-; Automotive Qualification Standard:-; MSL:MSL 2 - 1 year; SVHC:No SVHC (15-Jun-2015); Base Number:43; IC Case Style:QFN; No. of Bits:24bit; Operating Temperature Range:-40\u00b0C to +85\u00b0C; Output Type:Voltage; Sample Rate:96kSPS; Supply Current:10mA; Supply Voltage Max:5.25V; Supply Voltage Min:1.6V; Supply Voltage Range - Analogue:1.65V to 2.63V; Supply Voltage Range - Digital:1.65V to 2.63V; Termination Type:Surface Mount Device"
+      ],
+      "interface": [
+        "I2C",
+        "I2S"
+      ],
+      "min_voltage": 1.6,
+      "max_voltage": 5.25,
+      "output_type": [
+        "Voltage"
+      ],
+      "supply_current": 0.01,
+      "component_type": "temp_sensor",
+      "original_name": "CS43L22"
+    },
+    {
+      "id": "Voltage",
+      "type": "output_type"
+    },
+    {
+      "id": "WM8960CGEFL/RV",
+      "type": "component",
+      "mpn": "WM8960CGEFL/RV",
+      "manufacturer": "Cirrus Logic",
+      "descriptions": [
+        "WM8960 Series 24 Bit Portable Digital Audio Application Low Power CODEC - QFN-32",
+        "Tape & Reel (TR) Active 94 / 98 Stereo Audio codec 94dB 1.8V 188.609377mg 48ksps",
+        "Audio Codec 2ADC /2 DAC 24-Bit 32-Pin QFN T/R",
+        "IC CODEC CLASS D SPKR DVR 32QFN",
+        "PCM Codec, A/MU-Law, 1-Func, CMOS, PQCC32",
+        "QFN-32-EP(5x5) Audio Interface ICs ROHS",
+        "Product Description Demo for Development."
+      ],
+      "interface": [
+        "2-Wire",
+        "Serial"
+      ],
+      "min_voltage": 1.8,
+      "max_voltage": 1.8,
+      "output_type": [
+        "CMOS"
+      ],
+      "supply_current": 2.0,
+      "component_type": "audio",
+      "original_name": "WM8960"
+    },
+    {
+      "id": "ES8388",
+      "type": "component",
+      "mpn": "ES8388",
+      "manufacturer": "Everest Semiconductor",
+      "descriptions": [
+        "QFN-28-EP(4x4) ADCs/DACs - Special Purpose ROHS",
+        "ADC/DAC- Exclusive"
+      ],
+      "interface": [
+        "I2S",
+        "Analog"
+      ],
+      "min_voltage": 3.3,
+      "max_voltage": 5.5,
+      "output_type": [
+        "Analog",
+        "Digital"
+      ],
+      "supply_current": 0.05,
+      "component_type": "audio",
+      "original_name": "ES8388"
+    },
+    {
+      "id": "VS1053B-L",
+      "type": "component",
+      "mpn": "VS1053B-L",
+      "manufacturer": "VLSI",
+      "descriptions": [
+        "LQFP-48_7x7x05P Audio Interface ICs ROHS",
+        "Audio Codec 1ADC / 1DAC 18bit",
+        "Audio Interface Chip",
+        "VS1053B-L VLSI"
+      ],
+      "interface": [
+        "SPI",
+        "Serial"
+      ],
+      "min_voltage": 3.3,
+      "max_voltage": 5.5,
+      "output_type": [
+        "Analog",
+        "Digital"
+      ],
+      "supply_current": 1.0,
+      "component_type": "audio",
+      "original_name": "VS1053B"
+    },
+    {
+      "id": "MAX98357AETE+T",
+      "type": "component",
+      "mpn": "MAX98357AETE+T",
+      "manufacturer": "Analog Devices",
+      "descriptions": [
+        "MAX98357A Series 5.5 V 3.2 W PCM Input Class D Audio Power Amplifier - TQFN-16",
+        "Audio Amp Speaker 1-CH Mono 3.2W Class-D 16-Pin TQFN EP T/R",
+        "Tiny, Low-Cost, PCM Class D Amplifier with Class AB Performance",
+        "Class D Audio amplifier QFN50P300X300X90",
+        "8542.33.00.01 MAX98357 Tape & Reel (TR) Depop Short-Circuit and Thermal Protection audio amplifier 5V 0.5mm 3.2W x 2 @ 4Ohm 1.6A",
+        "AUDIO POWER AMP, D, -40 TO 85DEG C; Output Power x Channels @ Load:3.2W x 1 @ 4Ohm; Audio Amplifier Type:D; No. of Channels:1Channels; Supply Voltage Range:2.5V to 5.5V; IC Case / Package:TQFN; No. of Pins:16Pins; Load Impedance:4ohmRoHS Compliant: Yes"
+      ],
+      "interface": [
+        "I2S",
+        "Analog"
+      ],
+      "min_voltage": 2.5,
+      "max_voltage": 5.5,
+      "output_type": [
+        "Analog",
+        "Digital"
+      ],
+      "supply_current": 98357.0,
+      "component_type": "audio",
+      "original_name": "MAX98357A"
+    },
+    {
+      "id": "98357.0mA",
+      "type": "current",
+      "value": 98357.0
+    },
+    {
+      "id": "UDA1334ATS/N2,118",
+      "type": "component",
+      "mpn": "UDA1334ATS/N2,118",
+      "manufacturer": "NXP Semiconductors",
+      "descriptions": [
+        "UDA1334ATS Series 2 Channel 3.6 V 24-Bit I2C SMT D/A Converter - SSOP-16",
+        "DAC 2-CH Interpolation Filter 16-Pin SSOP T/R",
+        "Low Power Stereo Audio Dac Including Wordselect Pll/ Reel Rohs Compliant: Yes |Nxp UDA1334ATS/N2,118",
+        "Digital to Analog Converters - DAC ULTRA LOW COST DAC",
+        "DAC, VOLTAGE OUTPUT, 24BIT, SSOP-16",
+        "D/A Converter, 1 Func, Serial Input Loading, PDSO16",
+        "DAC, VOLTAGE OUTPUT, 24BIT, SSOP-16; Resolution (Bits): 24bit; Sampling Rate: 100kSPS; Data Interface: I2C; Supply Voltage Range: 2.4V to 3.6V; ADC / DAC Case Style: SSOP; No. of Pins: 16Pins; Input Channel Type: Serial; Operat"
+      ],
+      "interface": [
+        "I2C",
+        "Serial"
+      ],
+      "min_voltage": 2.4,
+      "max_voltage": 3.6,
+      "output_type": [
+        "Voltage"
+      ],
+      "supply_current": 1334.0,
+      "component_type": "audio",
+      "original_name": "UDA1334A"
+    },
+    {
+      "id": "1334.0mA",
+      "type": "current",
+      "value": 1334.0
+    },
+    {
+      "id": "HD44780A02",
+      "type": "component",
+      "mpn": "HD44780A02",
+      "manufacturer": "Hitachi",
+      "descriptions": [
+        "HITACHI QFP80"
+      ],
+      "interface": [],
+      "min_voltage": 0.0,
+      "max_voltage": 0.0,
+      "output_type": [],
+      "supply_current": 0.05,
+      "component_type": "misc",
+      "original_name": "HD44780"
+    },
+    {
+      "id": "PCD8544U/2/F1,026",
+      "type": "component",
+      "mpn": "PCD8544U/2/F1,026",
+      "manufacturer": "NXP Semiconductors",
+      "descriptions": [],
+      "interface": [],
+      "min_voltage": 0.0,
+      "max_voltage": 0.0,
+      "output_type": [],
+      "supply_current": 0.05,
+      "component_type": "misc",
+      "original_name": "PCD8544"
+    },
+    {
+      "id": "LCD DISPLAY TFT-3.2RTS-ST7789V",
+      "type": "component",
+      "mpn": "LCD DISPLAY TFT-3.2RTS-ST7789V",
+      "manufacturer": "Olimex",
+      "descriptions": [],
+      "interface": [
+        "Parallel",
+        "SPI",
+        "I2C"
+      ],
+      "min_voltage": 3.3,
+      "max_voltage": 5.0,
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 0.1,
+      "component_type": "display",
+      "original_name": "ST7789"
+    },
+    {
+      "id": "RA8875L3N",
+      "type": "component",
+      "mpn": "RA8875L3N",
+      "manufacturer": "RAiO",
+      "descriptions": [],
+      "interface": [],
+      "min_voltage": 0.0,
+      "max_voltage": 0.0,
+      "output_type": [],
+      "supply_current": 0.05,
+      "component_type": "misc",
+      "original_name": "RA8875"
+    },
+    {
+      "id": "OST77358",
+      "type": "component",
+      "mpn": "OST77358",
+      "manufacturer": "Tekton",
+      "descriptions": [
+        "TEKTON OST77358 1/4\", 3/8\", 1/2\" Drive Socket Rail"
+      ],
+      "interface": [
+        "Parallel",
+        "SPI",
+        "I2C"
+      ],
+      "min_voltage": 3.3,
+      "max_voltage": 5.0,
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 0.1,
+      "component_type": "display",
+      "original_name": "ST7735"
+    },
+    {
+      "id": "MAX7219CWG+T",
+      "type": "component",
+      "mpn": "MAX7219CWG+T",
+      "manufacturer": "Analog Devices",
+      "descriptions": [
+        "MAX7219 Series 5.5 V 330 mA Surface Mount 8-Digit LED Display Driver - SOIC-24",
+        "Led Display Driver, 0 To 70Deg C; Display Driver Type:Led Display Driver; No. Of Digits:8; No. Of Segments:7; Ic Case/Package:Wsoic; No. Of Pins:24Pins; Supply Voltage Min:4V; Supply Voltage Max:5.5V; Interfaces:-; Product Range:- Rohs Compliant: Yes |Maxim Integrated / Analog Devices MAX7219CWG+T",
+        "LED DISPLAY DRIVER, 8 DIGIT, WSOIC-24; Device Topology: -; Input Voltage Min: 4V; Input Voltage Max: 5.5V; Output Voltage Max: -; Output Current Max: 500mA; Switching Frequency: -; No. of Outputs: 8Outputs; IC Mounting: SMD; Driver Case Style: WSOIC; No. of Pins: 24Pins; Operating Temperature Min: 0\u00b0C; Operating Temperature Max: 70\u00b0C; Product Range: -; Automotive Qualification Standard: -; RoHS Phthalates Compliant: To Be Advised; MSL: MSL 1 - Unlimited; SVHC: No SVHC (15-Jan-2018)"
+      ],
+      "interface": [
+        "Analog"
+      ],
+      "min_voltage": 4.5,
+      "max_voltage": 5.5,
+      "output_type": [
+        "Analog",
+        "Digital"
+      ],
+      "supply_current": 0.5,
+      "component_type": "temp_sensor",
+      "original_name": "MAX7219"
+    },
+    {
+      "id": "0.5mA",
+      "type": "current",
+      "value": 0.5
+    },
+    {
+      "id": "MCP2515DM-PTPLS",
+      "type": "component",
+      "mpn": "MCP2515DM-PTPLS",
+      "manufacturer": "Microchip",
+      "descriptions": [
+        "BOARD DAUGHTER PICTAIL MCP2515 \"MCP2515, MCP2551 CANbus Controller Interface Evaluation Board\"",
+        "MCP2515 PICtail Plus Daughter Board for Explorer 16 Development Board",
+        "Daughter Cards & OEM Boards MCP2515 PICTail Plus Daughtr Brd",
+        "MCP2515 PICTail Plus Daughter Board",
+        "Microchip MCP2515DM-PTPLS, PICtail Plus CAN Bus Daughter Board | Microchip Technology Inc. MCP2515DM-PTPLS",
+        "MCP2515 Controller Area Network Daughter Board",
+        "EVAL BOARD FOR MCP2515 MCP2551",
+        "Mcp2515, Can Cntlr, Daughter Board; Kit Application Type:Interface; Application Sub Type:Can; Silicon Manufacturer:Microchip; Silicon Core Number:Mcp2515, Mcp2551; Product Range:-; Kit Contents:Board Only; Svhc:No Svhc (15-Jan-2018);rohs Compliant: Yes |Microchip MCP2515DM-PTPLS"
+      ],
+      "interface": [
+        "CAN",
+        "Serial"
+      ],
+      "min_voltage": 3.0,
+      "max_voltage": 5.5,
+      "output_type": [
+        "TTL",
+        "Digital"
+      ],
+      "supply_current": 0.1,
+      "component_type": "mcu",
+      "original_name": "MCP2515"
+    },
+    {
+      "id": "ENC28J60-I/SS",
+      "type": "component",
+      "mpn": "ENC28J60-I/SS",
+      "manufacturer": "Microchip",
+      "descriptions": [
+        "ENC28J60 Series 3.3 V Stand-Alone Ethernet Controller with SPI Interface-SSOP-28",
+        "IC ETHERNET CTRLR W/SPI 28SSOP Ethernet Controller 10 Base-T PHY SPI Interface 28-SSOP",
+        "Ethernet CTLR Single Chip 10Mbps 3.3V 28-Pin SSOP Tube",
+        "MICROCHIP - ENC28J60-I/SS - CONTROLLER, ETHERNET, W/ SPI, 28SSOP",
+        "CONTROLLER, ETHERNET, W/ SPI, 28SSOP; Data Rate: 10Mbps; Ethernet Type: IEEE 802.3; Supply Voltage Min: 3.1V; Supply Voltage Max: 3.6V; Controller IC Case Style: SSOP; No. of Pins: 28Pins; IC Interface Type: SPI; Operating Temp",
+        "Data Rate Mbps = 10 / Ethernet Type = IEEE 802.3 / Frequency MHz = 20 / Interfaces = SPI / Supply Current mA = 160 / Supply Voltage Min. V = 3.1 / Supply Voltage Max. V = 3.6 / Operating Temperature Min. \u00b0C = -40 / Operating Temperature Max. \u00b0C = 85 / Package Type = SSOP / Pins = 28 / Mounting Type = SMD / Packaging = Tube / Length mm = 10.2 / Width mm = 5.3 / Height mm = 1.75"
+      ],
+      "interface": [
+        "SPI"
+      ],
+      "min_voltage": 3.1,
+      "max_voltage": 3.6,
+      "output_type": [
+        "Analog",
+        "Digital"
+      ],
+      "supply_current": 0.005,
+      "component_type": "temp_sensor",
+      "original_name": "ENC28J60"
+    },
+    {
+      "id": "RFM69HW-868-S2",
+      "type": "component",
+      "mpn": "RFM69HW-868-S2",
+      "manufacturer": "Hope Microelectronics",
+      "descriptions": [
+        "RF Transceiver module 868MHz,ISM,20dBm",
+        "TRX MOD 868MHZ +20DBM -116DBM"
+      ],
+      "interface": [
+        "UART",
+        "SPI",
+        "I2C"
+      ],
+      "min_voltage": 3.3,
+      "max_voltage": 5.0,
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 0.05,
+      "component_type": "communication",
+      "original_name": "RFM69HW"
+    },
+    {
+      "id": "W5500",
+      "type": "component",
+      "mpn": "W5500",
+      "manufacturer": "WIZnet",
+      "descriptions": [
+        "Chip; Ethernet controller; TCP/IP, MAC, PHY; 32KB; 15Mbps; Fast SPI; 3.3V; SMD LQFP-48",
+        "W5500 Series 3.3 V Hardwired TCP/IP Embedded Ethernet Controller - LQFP-48",
+        "Ethernet CTLR Single Chip 10Mbps/100Mbps 3.3V 48-Pin LQFP Reel",
+        "Ethernet Controller 10/100 Base-T/TX MAC PHY SPI QFP48 W5500"
+      ],
+      "interface": [
+        "Ethernet",
+        "SPI"
+      ],
+      "min_voltage": 2.97,
+      "max_voltage": 3.63,
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 0.05,
+      "component_type": "communication",
+      "original_name": "W5500"
+    },
+    {
+      "id": "Ethernet",
+      "type": "interface"
+    },
+    {
+      "id": "ESP8266EX",
+      "type": "component",
+      "mpn": "ESP8266EX",
+      "manufacturer": "Espressif Systems",
+      "descriptions": [
+        "IC ESP8266, SDIO 2.0, SPI, UART, QFN32, RF switch, balun, 24dBm PA, DCXO, PMU/Espresiff",
+        "Highly Integrated Wi-Fi SoC Solution | IC RF TXRX+MCU WIFI 32VFQFN",
+        "SOC 32-Bit L106 RISC 160MHz Single Core 8MB 32-Pin QFN EP",
+        "SMD IC ESP8266EX, QFN32-PIN, 5_5"
+      ],
+      "interface": [
+        "UART",
+        "SPI"
+      ],
+      "min_voltage": 32.0,
+      "max_voltage": 32.0,
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 0.05,
+      "component_type": "communication",
+      "original_name": "ESP8266"
+    },
+    {
+      "id": "NRF24L01-REEL",
+      "type": "component",
+      "mpn": "NRF24L01-REEL",
+      "manufacturer": "Nordic Semiconductor",
+      "descriptions": [
+        "RF Transceiver GFSK 3V 20-Pin QFN EP T/R",
+        "RF Transceiver 1.9-3.6V 2.4GHz XCVR ENHNCD SHCKBRST",
+        "ISM Transceiver, 2.4 GHz to 2.525 GHz, 20 Pins, QFN",
+        "2.4 Ghz Transceiver Tape and R",
+        "ULTRA LOW POWER TRANSCEIVER 2.4"
+      ],
+      "interface": [
+        "SPI"
+      ],
+      "min_voltage": 3.0,
+      "max_voltage": 3.6,
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 0.05,
+      "component_type": "communication",
+      "original_name": "NRF24L01"
+    },
+    {
+      "id": "HC1-2R3-R",
+      "type": "component",
+      "mpn": "HC1-2R3-R",
+      "manufacturer": "Eaton",
+      "descriptions": [
+        "Inductor Power Wirewound 2.29u(OCL)H/2.3uH 15% 300KHz Ferrite 22.3A 2mOhm DCR T/R",
+        "Power Inductor (SMD), 2.3 uH, \u00ef\u00bf\u00bd 15%, 22.3 A, Unshielded, 16.7 A, 13mm x 13mm x 10mm",
+        "HC1 Series 2.3 uH \u00b115 % Tolerance 22.3 A Unshielded High Current Power Inductor",
+        "Inductor, Shielded, 2.3Uh, 16.7A, Smd; Inductance:2.3\u039ch; Rms Current (Irms):22.3A; Inductor Construction:Shielded; Saturation Current (Isat):16.7A; Product Range:Hc1 Series; Dc Resistance Max:0.002Ohm; Inductance Tolerance:\u00b1 15% Rohs Compliant: Yes |Eaton Coiltronics HC1-2R3-R"
+      ],
+      "interface": [],
+      "min_voltage": 0.0,
+      "max_voltage": 0.0,
+      "output_type": [],
+      "supply_current": 22.3,
+      "component_type": "misc",
+      "original_name": "HC-12"
+    },
+    {
+      "id": "22.3mA",
+      "type": "current",
+      "value": 22.3
+    },
+    {
+      "id": "RFM95W-915S2",
+      "type": "component",
+      "mpn": "RFM95W-915S2",
+      "manufacturer": "RF Solutions",
+      "descriptions": [
+        "Transceiver, low poer, long range, 915MHZ, +20dBm power amplifier, RFM95 | RF Solutions RFM95W-915S2",
+        "RFM95W LoRA Transceiver Module 915MHz",
+        "LORA TRX MODULE +20DBM/-139DBM 3"
+      ],
+      "interface": [
+        "SPI"
+      ],
+      "min_voltage": 1.8,
+      "max_voltage": 3.7,
+      "output_type": [
+        "Analog",
+        "Digital"
+      ],
+      "supply_current": 0.05,
+      "component_type": "audio",
+      "original_name": "RFM95W"
+    },
+    {
+      "id": "SX1278IMLTRT",
+      "type": "component",
+      "mpn": "SX1278IMLTRT",
+      "manufacturer": "Semtech",
+      "descriptions": [
+        "RF ISM Transceiver FSK/GFSK/GMSK/MSK/OOK 3.3V 28-Pin QFN EP T/R / IC RF TXRX 802.15.4 28VQFN",
+        "300Kbps 802.15.4 137MHz~525MHz SPI QFN-28-EP(6x6) RF Transceiver ICs ROHS",
+        "Low Power Long Range Transceiver, 137 MHz to 525 MHz, 28 Pins, QFN-EP",
+        "SX1278 Series 3.7 V 20 dBm 528 MHz 300 kbps Long Range Transceiver - QFN -28",
+        "RF TRANSCEIVER, 525MHZ, QFN-EP-28; Frequ; RF TRANSCEIVER, 525MHZ, QFN-EP-28; Frequency Min: 137MHz; Frequency Max: 525MHz; RF / IF Modulation: FSK, GFSK, GMSK, MSK, OOK; Data Rate: 300Kbps; Receiving Current: 12mA; RF IC Case"
+      ],
+      "interface": [
+        "SPI"
+      ],
+      "min_voltage": 3.3,
+      "max_voltage": 28.0,
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 0.012,
+      "component_type": "communication",
+      "original_name": "SX1278"
+    },
+    {
+      "id": "0.012mA",
+      "type": "current",
+      "value": 0.012
+    },
+    {
+      "id": "MCP3002-I/P",
+      "type": "component",
+      "mpn": "MCP3002-I/P",
+      "manufacturer": "Microchip",
+      "descriptions": [
+        "2-Channel Single ADC - SAR - 200ksps - 10-bit Serial - Automotive - 8-Pin PDIP - Tube",
+        "IC ADC 10BIT SAR 8DIP \"10 Bit Analog to Digital Converter 1, 2 Input 1 SAR 8-PDIP\"",
+        "Microchip MCP3002-I/P, 10 bit Serial ADC, Differential Input, 8-Pin PDIP | Microchip Technology Inc. MCP3002-I/P",
+        "Analog to Digital Converters - ADC 10-bit SPI Dual Chl IND TEMP, PDIP8",
+        "Dual Channel SPI Interface 5.5 V 200 kbps 10-Bit A/D Converter- PDIP-8",
+        "Converters - A/D - System - SAR 10-bit SPI Dual Chl",
+        "Successive Approximation Register, 10bits, 5.5V, 550\u00b5A, PDIP-8, RoHS",
+        "A/D Converter 10-Bit 2-ch 2.7V SPI PDIP8",
+        "Ic, Adc, 10Bit, 200Ksps, Dip-8; Resolution (Bits):10Bit; Sampling Rate:200Ksps; Input Channel Type:Pseudo Differential, Single Ended; Data Interface:Serial, Spi; Supply Voltage Type:Single; Supply Voltage Min:2.7V; No. Of Pins:8Pins Rohs Compliant: Yes |Microchip MCP3002-I/P"
+      ],
+      "interface": [
+        "SPI",
+        "Serial"
+      ],
+      "min_voltage": 2.7,
+      "max_voltage": 5.5,
+      "output_type": [
+        "Differential"
+      ],
+      "supply_current": 0.0005499999999999999,
+      "component_type": "temp_sensor",
+      "original_name": "MCP3002"
+    },
+    {
+      "id": "Differential",
+      "type": "output_type"
+    },
+    {
+      "id": "0.0005499999999999999mA",
+      "type": "current",
+      "value": 0.0005499999999999999
+    },
+    {
+      "id": "DS1302+",
+      "type": "component",
+      "mpn": "DS1302+",
+      "manufacturer": "Analog Devices",
+      "descriptions": [
+        "Clock, Real Time; DIP; 8 Pins; -0.5 to +7.0 V; 0.7V; 0.3V; 0.4 V (Max.); 15",
+        "RTC Clock/Calendar 31B I2C Interface DIP8 DS 1302+",
+        "MAXIM INTEGRATED PRODUCTS DS1302+. IC, TRICKLE CHARGE RTC, 1302, DIP8",
+        "Real Time Clock Serial 31byte Clock/Calendar/Trickle Charger/NV Timekeeping RAM 8-Pin PDIP N Tube",
+        "8-DIP (0.300 7.62mm) DS1302 e3 Leap Year NVSRAM Trickle-Charger real time clock IC 2V~5.5V 0.3muA~1muA @ 2V~5V 9.91mm 0.032MHz",
+        "Ic, Trickle Charge Rtc, 1302, Dip8; Date Format:Day; Date; Month; Year; Clock Format:Hh:Mm:Ss; Clock Ic Type:Timekeeper; Supply Voltage Min:2V; Supply Voltage Max:5.5V; Clock Ic Case Style:Dip; No. Of Pins:8Pins; Ic Interface Type:3 Rohs Compliant: Yes |Analog Devices DS1302+",
+        "Date Format = YY-MM-DD / Time Format = HH:MM:SS (12/24 hr) / Interfaces = 3-Wire Serial / Battery Backup Switching Max. V = 5.5 / Battery Backup Switching Min. V = 2 / Supply Voltage Min. V = 2 / Supply Voltage Max. V = 5.5 / Operating Temperature Min. \u00b0C = 0 / Operating Temperature Max. \u00b0C = 70 / Package Type = PDIP / Pins = 8 / Mounting Type = Through Hole / Packaging = Tube / Length mm = 9.91 / Width mm = 7.62 / Height mm = 4.45 / Reflow Temperature Max. \u00b0C = 260 / Memory Size B = 31"
+      ],
+      "interface": [
+        "Serial"
+      ],
+      "min_voltage": 2.0,
+      "max_voltage": 5.5,
+      "output_type": [
+        "Analog",
+        "Digital"
+      ],
+      "supply_current": 0.005,
+      "component_type": "temp_sensor",
+      "original_name": "DS1302"
+    },
+    {
+      "id": "AT24C256C-XHL-T",
+      "type": "component",
+      "mpn": "AT24C256C-XHL-T",
+      "manufacturer": "Microchip",
+      "descriptions": [
+        "EEPROM Serial-I2C 256K-bit 32K x 8 1.8V/2.5V/3.3V/5V Automotive AEC-Q100 8-Pin TSSOP T/R",
+        "AT24C256C Series 256 Kb (32 K x 8) 1.7 V I2C-Compatible Serial EEPROM - TSSOP-8",
+        "I\u00b2C\u2122 Serial EEPROM, 1.7 to 5.5V, 1 MHz, -40 to 125\u00b0C, TSSOP-8, RoHS",
+        "IC EEPROM 256KBIT I2C 8TSSOP EEPROM Memory IC 256Kbit I2C 1 MHz 550 ns 8-TSSOP"
+      ],
+      "interface": [
+        "2-Wire",
+        "I2C"
+      ],
+      "min_voltage": 1.7,
+      "max_voltage": 5.5,
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 0.05,
+      "component_type": "communication",
+      "original_name": "AT24C256"
+    },
+    {
+      "id": "IS31FL3741A-QFLS4-TR",
+      "type": "component",
+      "mpn": "IS31FL3741A-QFLS4-TR",
+      "manufacturer": "ISSI",
+      "descriptions": [
+        "39x9 Dot Matrix LED Driver, QFN-60 (7.0mm x 7.0mm), T&R",
+        "QFN-60-EP(7x7) LED Drivers ROHS",
+        "IC 399 MATRIX LED DRIVER, 60QFN",
+        "IC LED DRVR LIN I2C 38MA 60QFN"
+      ],
+      "interface": [
+        "I2C"
+      ],
+      "min_voltage": 3.3,
+      "max_voltage": 12.0,
+      "output_type": [
+        "PWM",
+        "Digital"
+      ],
+      "supply_current": 0.399,
+      "component_type": "motor_driver",
+      "original_name": "IS31FL3741"
+    },
+    {
+      "id": "0.399mA",
+      "type": "current",
+      "value": 0.399
+    },
+    {
+      "id": "BMP388",
+      "type": "component",
+      "mpn": "BMP388",
+      "manufacturer": "Bosch Sensortec",
+      "descriptions": [
+        "BMP388 Series 125 kPa 3.6 V Digital Barometric Pressure Sensor",
+        "Piezoresistive Sensor, Barometric, 0.043Psi Min, 0.181Psi Max, Square, Surface Mount",
+        "30Kpa~125Kpa LGA-10(2x2) Pressure Sensors ROHS"
+      ],
+      "interface": [
+        "Digital"
+      ],
+      "min_voltage": 1.65,
+      "max_voltage": 3.6,
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 0.05,
+      "component_type": "communication",
+      "original_name": "BMP388"
+    },
+    {
+      "id": "MLX90640ESF-BAB-000-SP",
+      "type": "component",
+      "mpn": "MLX90640ESF-BAB-000-SP",
+      "manufacturer": "Melexis",
+      "descriptions": [
+        "MLX90640 Series 2.9 to 3.6 V 32 x 24 Thermal Sensor IR Array - TO-39-4 Metal Can",
+        "32x24 Pixels IR array Digital Output 3.3V 4-Pin TO-39",
+        "IR SENSOR 32x24 ARRAY 50\u00b0x35\u00b0",
+        "Rotary Position Sensors",
+        "SENSOR DGTL -40C-85C TO39",
+        "Hall Effect Sensor"
+      ],
+      "interface": [
+        "CAN",
+        "Digital"
+      ],
+      "min_voltage": 3.3,
+      "max_voltage": 3.6,
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 24.0,
+      "component_type": "communication",
+      "original_name": "MLX90640"
+    },
+    {
+      "id": "24.0mA",
+      "type": "current",
+      "value": 24.0
+    },
+    {
+      "id": "DS1307Z+",
+      "type": "component",
+      "mpn": "DS1307Z+",
+      "manufacturer": "Analog Devices",
+      "descriptions": [
+        "Integrated Circuit Real Time Clock (RTC); I2C; LPC; serial; 4.5-5.5V; -40+85 deg.C; SMD; SOP8",
+        "DS1307 Series 5.5 V I2C / Serial Surface Mount Real Time Clock - SOIC-8",
+        "RTC Clock/Calendar 56B I2C Interface SO8 DS 1307 Z+",
+        "8-SOIC (0.154 3.90mm Width) DS1307 e3 Leap Year NVSRAM Square Wave Output real time clock IC 4.5V~5.5V 200muA @ 5V 5mm 32.768kHz",
+        "Date Format = YY-MM-DD / Time Format = HH:MM:SS (12/24 hr) / Interfaces = I\u00b2C / Interfaces = 2-Wire Serial / Battery Backup Switching Max. V = 3.5 / Battery Backup Switching Min. V = 2 / Supply Voltage Min. V = 4.5 / Supply Voltage Max. V = 5.5 / Operating Temperature Min. \u00b0C = 0 / Operating Temperature Max. \u00b0C = 70 / Package Type = SOIC / Pins = 8 / Mounting Type = SMD / MSL = Level-1 / Packaging = Tube / Length mm = 4.9 / Width mm = 3.9 / Height mm = 1.5 / Reflow Temperature Max. \u00b0C = 260 / Memory Size B = 56"
+      ],
+      "interface": [
+        "I2C"
+      ],
+      "min_voltage": 4.5,
+      "max_voltage": 5.5,
+      "output_type": [
+        "Analog",
+        "Digital"
+      ],
+      "supply_current": 0.005,
+      "component_type": "temp_sensor",
+      "original_name": "DS1307"
+    },
+    {
+      "id": "HMC5883L-DEMO",
+      "type": "component",
+      "mpn": "HMC5883L-DEMO",
+      "manufacturer": "Honeywell",
+      "descriptions": [
+        "Magnetoresistive Sensor 3-Axis 16-Pin CLCC",
+        "Voltage Controlled Oscillators",
+        "IC COMPASS 3 AXIS I2C DEMO KIT",
+        "MAGNETIC SENSOR DEMONSTRATION BOARD; Measuring Range:-8G to +8G; Resolution:5 mG; Supply Voltage Max:3.6V; Supply Voltage Min:1.71V; MCU Supported Families:HMC5883L"
+      ],
+      "interface": [
+        "I2C"
+      ],
+      "min_voltage": 2.16,
+      "max_voltage": 3.6,
+      "output_type": [
+        "Digital"
+      ],
+      "supply_current": 3.0,
+      "component_type": "display",
+      "original_name": "HMC5883L"
+    },
+    {
+      "id": "MCP4725EV",
+      "type": "component",
+      "mpn": "MCP4725EV",
+      "manufacturer": "Microchip",
+      "descriptions": [
+        "MCP4725 SOT23-6 Eval BoardAnalog | Microchip Technology Inc. MCP4725EV",
+        "MCP4725 DAC Evaluation Board PICkit Serial Analyzer IDE Automotive",
+        "Demo/Evaluation Boards and Development Kits MCP4725 Eval Brd",
+        "Evaluation Board for the MCP4725 12-bit DAC Device",
+        "MCP4725 SOT236 Evaluation Board",
+        "MCP4725 SOT-23-6 EVALUATION BOARD",
+        "BOARD EVAL FOR MCP4725 MCP4725 12 Bit 100k ~ 3.4M Samples Per Second Digital to Analog Converter (DAC) Evaluation Board",
+        "DEVELOPMENT KIT, DATA CONVERSION;",
+        "Sot-23-6 Evaluation Board+; Silicon Manufacturer:Microchip; Silicon Core Number:Mcp4725; Kit Application Type:Data Converter; Application Sub Type:Dac; Kit Contents:Evaluation Board Mcp4725; Product Range:- Rohs Compliant: Na |Microchip MCP4725EV"
+      ],
+      "interface": [
+        "I2C"
+      ],
+      "min_voltage": 3.0,
+      "max_voltage": 5.5,
+      "output_type": [
+        "TTL",
+        "Digital"
+      ],
+      "supply_current": 0.1,
+      "component_type": "mcu",
+      "original_name": "MCP4725"
+    }
+  ],
+  "edges": [
+    {
+      "source": "3.3V",
+      "target": "STM32H743ZIT6",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "ATMEGA2560V-8AU",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "ADXL335BCPZ",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "ADXL203CE",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "D3172MMA7455L",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "LSM6DSO32TR",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "BMI088",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "ICM-42688-P",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "LSM6DSOXTR",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "D3172MMA7361LC",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "ADXL377BCPZ-RL",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "H3LIS331DLTR",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "LM358DR2G",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "TC74A5-5.0VCTTR",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "MCP9700DM-PCTL",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "TMP117MAIDRVR",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "SHT40I-AD1B-R2",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "HDC2080DMBR",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "MAX31855KASA+",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "DS18B20+PAR",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "MAX6675ISA+",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "MAX31856EVSYS#",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "GP2Y0A21YK0F",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "GP2Y0A02YK0F",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "VL53L1X-SATEL",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "TMF8801-DB",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "VL53L3CXV0DH/1",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "TB6612FNG,C,8,EL",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "TMC4671+TMC6100-BOB",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "A4988SETTR-T",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "PAM8403DR",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "CS43L22-CNZ",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "ES8388",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "VS1053B-L",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "MAX98357AETE+T",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "UDA1334ATS/N2,118",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "LCD DISPLAY TFT-3.2RTS-ST7789V",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "OST77358",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "MCP2515DM-PTPLS",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "ENC28J60-I/SS",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "RFM69HW-868-S2",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "W5500",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "NRF24L01-REEL",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "RFM95W-915S2",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "SX1278IMLTRT",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "MCP3002-I/P",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "DS1302+",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "AT24C256C-XHL-T",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "IS31FL3741A-QFLS4-TR",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "BMP388",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "MLX90640ESF-BAB-000-SP",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "HMC5883L-DEMO",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "3.3V",
+      "target": "MCP4725EV",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "PIC18F4550-I/PT",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "ATMEGA2560V-8AU",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "ADXL203CE",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "D3172MMA7361LC",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "LM358DR2G",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "TC74A5-5.0VCTTR",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "MCP9700DM-PCTL",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "TMP117MAIDRVR",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "SHT40I-AD1B-R2",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "DS18B20+PAR",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "MAX6675ISA+",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "MAX31856EVSYS#",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "GP2Y0A21YK0F",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "HC-SR04",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "GP2Y0A02YK0F",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "VL53L1X-SATEL",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "TMF8801-DB",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "GP2Y0A710K0F",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "L293DD013TR",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "TB6612FNG,C,8,EL",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "TMC4671+TMC6100-BOB",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "A4988SETTR-T",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "LM386MMX-1/NOPB",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "PAM8403DR",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "CS43L22-CNZ",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "ES8388",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "VS1053B-L",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "MAX98357AETE+T",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "LCD DISPLAY TFT-3.2RTS-ST7789V",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "OST77358",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "MAX7219CWG+T",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "MCP2515DM-PTPLS",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "RFM69HW-868-S2",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "SX1278IMLTRT",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "MCP3002-I/P",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "DS1302+",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "AT24C256C-XHL-T",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "IS31FL3741A-QFLS4-TR",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "DS1307Z+",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "5V",
+      "target": "MCP4725EV",
+      "relationship": "requires_voltage"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "I2C",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "SPI",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "UART",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "USART",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "USB",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "CMOS",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "0.1mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "ADXL335BCPZ",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "ADXL203CE",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "D3172MMA7455L",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "LM358DR2G",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "TC74A5-5.0VCTTR",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "MCP9700DM-PCTL",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "GP2Y0A21YK0F",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "HC-SR04",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "GP2Y0A02YK0F",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "ULN2003A",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "L293DD013TR",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "TB6612FNG,C,8,EL",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "LM386MMX-1/NOPB",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "TDA2030H",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "PAM8403DR",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "HD44780A02",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "PCD8544U/2/F1,026",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "MCP2515DM-PTPLS",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "ENC28J60-I/SS",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "RFM69HW-868-S2",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "MCP3002-I/P",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "DS1302+",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "PIC18F4550-I/PT",
+      "target": "AT24C256C-XHL-T",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "I2C",
+      "target": "STM32H743ZIT6",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "ATMEGA2560V-8AU",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "D3172MMA7455L",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "LSM6DSO32TR",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "LSM6DSOXTR",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "D3172MMA7361LC",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "H3LIS331DLTR",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "LM358DR2G",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "TC74A5-5.0VCTTR",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "I2C",
+      "target": "SHT40I-AD1B-R2",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "HDC2080DMBR",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "VL53L1X-SATEL",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "SRF0504-402Y",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "A4988SETTR-T",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "CS43L22-CNZ",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "UDA1334ATS/N2,118",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "LCD DISPLAY TFT-3.2RTS-ST7789V",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "OST77358",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "RFM69HW-868-S2",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "AT24C256C-XHL-T",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "IS31FL3741A-QFLS4-TR",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "DS1307Z+",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "HMC5883L-DEMO",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2C",
+      "target": "MCP4725EV",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "STM32H743ZIT6",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "ATMEGA2560V-8AU",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "D3172MMA7455L",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "LSM6DSO32TR",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "LSM6DSOXTR",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "D3172MMA7361LC",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "H3LIS331DLTR",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "MAX31855KASA+",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "MAX6675ISA+",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "SRF0504-402Y",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "TMC5160-EVAL",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "DRV8301DCA",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "VS1053B-L",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "LCD DISPLAY TFT-3.2RTS-ST7789V",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "OST77358",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "ENC28J60-I/SS",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "RFM69HW-868-S2",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "W5500",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "ESP8266EX",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "NRF24L01-REEL",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "RFM95W-915S2",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "SX1278IMLTRT",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "SPI",
+      "target": "MCP3002-I/P",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "UART",
+      "target": "STM32H743ZIT6",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "UART",
+      "target": "ATMEGA2560V-8AU",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "UART",
+      "target": "SRF0504-402Y",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "UART",
+      "target": "TMC5160-EVAL",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "UART",
+      "target": "RFM69HW-868-S2",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "UART",
+      "target": "ESP8266EX",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "USART",
+      "target": "STM32H743ZIT6",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "USART",
+      "target": "ATMEGA2560V-8AU",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "USB",
+      "target": "STM32H743ZIT6",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "USB",
+      "target": "MAX31856EVSYS#",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "CMOS",
+      "target": "STM32H743ZIT6",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "CMOS",
+      "target": "ATMEGA2560V-8AU",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "CMOS",
+      "target": "MAX6675ISA+",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "CMOS",
+      "target": "WM8960CGEFL/RV",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "0.1mA",
+      "target": "ADXL377BCPZ-RL",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.1mA",
+      "target": "MCP9700DM-PCTL",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.1mA",
+      "target": "LCD DISPLAY TFT-3.2RTS-ST7789V",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.1mA",
+      "target": "OST77358",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.1mA",
+      "target": "MCP2515DM-PTPLS",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.1mA",
+      "target": "MCP4725EV",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "CAN",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "EBI/EMI",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "IrDA",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "LIN",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "32.0mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "LSM6DSO32TR",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "BMI088",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "ICM-42688-P",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "LSM6DSOXTR",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "TMP117MAIDRVR",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "SHT40I-AD1B-R2",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "HDC2080DMBR",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "VL53L1X-SATEL",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "TMF8801-DB",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "VL53L3CXV0DH/1",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "TMC5160-EVAL",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "TMC4671+TMC6100-BOB",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "DRV8301DCA",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "CS43L22-CNZ",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "WM8960CGEFL/RV",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "ES8388",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "LCD DISPLAY TFT-3.2RTS-ST7789V",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "RA8875L3N",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "W5500",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "ESP8266EX",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "NRF24L01-REEL",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "IS31FL3741A-QFLS4-TR",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "BMP388",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "STM32H743ZIT6",
+      "target": "MLX90640ESF-BAB-000-SP",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "CAN",
+      "target": "ADXL377BCPZ-RL",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "CAN",
+      "target": "MCP2515DM-PTPLS",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "CAN",
+      "target": "MLX90640ESF-BAB-000-SP",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "EBI/EMI",
+      "target": "ATMEGA2560V-8AU",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "2-Wire",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "100.0mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "D3172MMA7361LC",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "ADXL377BCPZ-RL",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "H3LIS331DLTR",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "MAX31855KASA+",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "DS18B20+PAR",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "MAX6675ISA+",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "MAX31856EVSYS#",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "MB1013-000",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "SRF0504-402Y",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "GP2Y0A710K0F",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "A4988SETTR-T",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "DRV8825PWPR",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "TB6600FG",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "VS1053B-L",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "MAX98357AETE+T",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "UDA1334ATS/N2,118",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "OST77358",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "MAX7219CWG+T",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "HC1-2R3-R",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "RFM95W-915S2",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "SX1278IMLTRT",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "DS1307Z+",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "HMC5883L-DEMO",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "ATMEGA2560V-8AU",
+      "target": "MCP4725EV",
+      "relationship": "compatible_with"
+    },
+    {
+      "source": "2-Wire",
+      "target": "TC74A5-5.0VCTTR",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "2-Wire",
+      "target": "WM8960CGEFL/RV",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "2-Wire",
+      "target": "AT24C256C-XHL-T",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "ADXL335BCPZ",
+      "target": "Analog",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "ADXL335BCPZ",
+      "target": "ANALOG",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "ADXL335BCPZ",
+      "target": "16.0mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "Analog",
+      "target": "ADXL203CE",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Analog",
+      "target": "LSM6DSO32TR",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Analog",
+      "target": "ICM-42688-P",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Analog",
+      "target": "D3172MMA7361LC",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Analog",
+      "target": "ADXL377BCPZ-RL",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Analog",
+      "target": "LM358DR2G",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Analog",
+      "target": "MCP9700DM-PCTL",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Analog",
+      "target": "TMP117MAIDRVR",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Analog",
+      "target": "SHT40I-AD1B-R2",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Analog",
+      "target": "HDC2080DMBR",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Analog",
+      "target": "MAX6675ISA+",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Analog",
+      "target": "MAX31856EVSYS#",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Analog",
+      "target": "GP2Y0A21YK0F",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Analog",
+      "target": "GP2Y0A02YK0F",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Analog",
+      "target": "VL53L1X-SATEL",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Analog",
+      "target": "TMF8801-DB",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Analog",
+      "target": "GP2Y0A710K0F",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Analog",
+      "target": "L293DD013TR",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Analog",
+      "target": "TMC5160-EVAL",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Analog",
+      "target": "TMC4671+TMC6100-BOB",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Analog",
+      "target": "A4988SETTR-T",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Analog",
+      "target": "LM386MMX-1/NOPB",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Analog",
+      "target": "TDA2030H",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Analog",
+      "target": "PAM8403DR",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Analog",
+      "target": "ES8388",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Analog",
+      "target": "VS1053B-L",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Analog",
+      "target": "MAX98357AETE+T",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Analog",
+      "target": "MAX7219CWG+T",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Analog",
+      "target": "ENC28J60-I/SS",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Analog",
+      "target": "RFM95W-915S2",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Analog",
+      "target": "DS1302+",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Analog",
+      "target": "DS1307Z+",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "ANALOG",
+      "target": "ADXL203CE",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "ANALOG",
+      "target": "ADXL377BCPZ-RL",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "ANALOG",
+      "target": "GP2Y0A21YK0F",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "ANALOG",
+      "target": "GP2Y0A02YK0F",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "16.0mA",
+      "target": "ULN2003A",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "16.0mA",
+      "target": "PAM8403DR",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "ADXL203CE",
+      "target": "0.01mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.01mA",
+      "target": "ICM-42688-P",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.01mA",
+      "target": "D3172MMA7361LC",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.01mA",
+      "target": "TMP117MAIDRVR",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.01mA",
+      "target": "CS43L22-CNZ",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "D3172MMA7455L",
+      "target": "Digital",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "D3172MMA7455L",
+      "target": "3.0mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "Digital",
+      "target": "LSM6DSO32TR",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "BMI088",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "ICM-42688-P",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "LSM6DSOXTR",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "D3172MMA7361LC",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "H3LIS331DLTR",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "LM358DR2G",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "TC74A5-5.0VCTTR",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "MCP9700DM-PCTL",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "TMP117MAIDRVR",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "SHT40I-AD1B-R2",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "HDC2080DMBR",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "MAX31855KASA+",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "DS18B20+PAR",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "MAX6675ISA+",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Digital",
+      "target": "MAX31856EVSYS#",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "GP2Y0A21YK0F",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "VL53L1X-SATEL",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "TMF8801-DB",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "VL53L3CXV0DH/1",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "SRF0504-402Y",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "ULN2003A",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "L293DD013TR",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "TB6612FNG,C,8,EL",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "TMC5160-EVAL",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "TMC4671+TMC6100-BOB",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "DRV8301DCA",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "A4988SETTR-T",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "DRV8825PWPR",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "LM386MMX-1/NOPB",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "TDA2030H",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "PAM8403DR",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "ES8388",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "VS1053B-L",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "MAX98357AETE+T",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "LCD DISPLAY TFT-3.2RTS-ST7789V",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "OST77358",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "MAX7219CWG+T",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "MCP2515DM-PTPLS",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "ENC28J60-I/SS",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "RFM69HW-868-S2",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "W5500",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "ESP8266EX",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "NRF24L01-REEL",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "RFM95W-915S2",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "SX1278IMLTRT",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "DS1302+",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "AT24C256C-XHL-T",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "IS31FL3741A-QFLS4-TR",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "BMP388",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "MLX90640ESF-BAB-000-SP",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "DS1307Z+",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "HMC5883L-DEMO",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Digital",
+      "target": "MCP4725EV",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "3.0mA",
+      "target": "LSM6DSOXTR",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "3.0mA",
+      "target": "H3LIS331DLTR",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "3.0mA",
+      "target": "HMC5883L-DEMO",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "LSM6DSO32TR",
+      "target": "0.00055mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "BMI088",
+      "target": "6.0mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "LM358DR2G",
+      "target": "0.005mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.005mA",
+      "target": "SHT40I-AD1B-R2",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.005mA",
+      "target": "HDC2080DMBR",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.005mA",
+      "target": "ENC28J60-I/SS",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.005mA",
+      "target": "DS1302+",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.005mA",
+      "target": "DS1307Z+",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "TC74A5-5.0VCTTR",
+      "target": "SMBus",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "TC74A5-5.0VCTTR",
+      "target": "Serial",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "TC74A5-5.0VCTTR",
+      "target": "74.0mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "Serial",
+      "target": "TMP117MAIDRVR",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Serial",
+      "target": "SHT40I-AD1B-R2",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Serial",
+      "target": "DS18B20+PAR",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Serial",
+      "target": "MAX6675ISA+",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Serial",
+      "target": "WM8960CGEFL/RV",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Serial",
+      "target": "VS1053B-L",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Serial",
+      "target": "UDA1334ATS/N2,118",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Serial",
+      "target": "MCP2515DM-PTPLS",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Serial",
+      "target": "MCP3002-I/P",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Serial",
+      "target": "DS1302+",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "MCP9700DM-PCTL",
+      "target": "TTL",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "TTL",
+      "target": "MCP2515DM-PTPLS",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "TTL",
+      "target": "MCP4725EV",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "MAX31855KASA+",
+      "target": "8.0mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "8.0mA",
+      "target": "MAX6675ISA+",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "DS18B20+PAR",
+      "target": "0.001mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "MAX31856EVSYS#",
+      "target": "1.0mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "1.0mA",
+      "target": "TMC5160-EVAL",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "1.0mA",
+      "target": "TMC4671+TMC6100-BOB",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "1.0mA",
+      "target": "VS1053B-L",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "GP2Y0A21YK0F",
+      "target": "0.04mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "HC-SR04",
+      "target": "0.015mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "GP2Y0A02YK0F",
+      "target": "0.05mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.05mA",
+      "target": "MB1013-000",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.05mA",
+      "target": "GP2Y0A710K0F",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.05mA",
+      "target": "ES8388",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.05mA",
+      "target": "HD44780A02",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.05mA",
+      "target": "PCD8544U/2/F1,026",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.05mA",
+      "target": "RA8875L3N",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.05mA",
+      "target": "RFM69HW-868-S2",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.05mA",
+      "target": "W5500",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.05mA",
+      "target": "ESP8266EX",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.05mA",
+      "target": "NRF24L01-REEL",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.05mA",
+      "target": "RFM95W-915S2",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.05mA",
+      "target": "AT24C256C-XHL-T",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.05mA",
+      "target": "BMP388",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "VL53L1X-SATEL",
+      "target": "0.02mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.02mA",
+      "target": "TMF8801-DB",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "0.02mA",
+      "target": "VL53L3CXV0DH/1",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "SRF0504-402Y",
+      "target": "0.2mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "ULN2003A",
+      "target": "PWM",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "PWM",
+      "target": "TB6612FNG,C,8,EL",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "PWM",
+      "target": "TMC5160-EVAL",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "PWM",
+      "target": "TMC4671+TMC6100-BOB",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "PWM",
+      "target": "DRV8301DCA",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "PWM",
+      "target": "DRV8825PWPR",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "PWM",
+      "target": "TB6600FG",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "PWM",
+      "target": "IS31FL3741A-QFLS4-TR",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "L293DD013TR",
+      "target": "Parallel",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "L293DD013TR",
+      "target": "0.6mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "Parallel",
+      "target": "TB6612FNG,C,8,EL",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Parallel",
+      "target": "LCD DISPLAY TFT-3.2RTS-ST7789V",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "Parallel",
+      "target": "OST77358",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "TB6612FNG,C,8,EL",
+      "target": "1.2mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "DRV8301DCA",
+      "target": "1.7mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "A4988SETTR-T",
+      "target": "2.0mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "2.0mA",
+      "target": "WM8960CGEFL/RV",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "DRV8825PWPR",
+      "target": "2.5mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "TB6600FG",
+      "target": "4.5mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "LM386MMX-1/NOPB",
+      "target": "70.0mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "TDA2030H",
+      "target": "I2S",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "TDA2030H",
+      "target": "5.0mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "I2S",
+      "target": "PAM8403DR",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2S",
+      "target": "CS43L22-CNZ",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2S",
+      "target": "ES8388",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "I2S",
+      "target": "MAX98357AETE+T",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "CS43L22-CNZ",
+      "target": "Voltage",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "Voltage",
+      "target": "UDA1334ATS/N2,118",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "MAX98357AETE+T",
+      "target": "98357.0mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "UDA1334ATS/N2,118",
+      "target": "1334.0mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "MAX7219CWG+T",
+      "target": "0.5mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "W5500",
+      "target": "Ethernet",
+      "relationship": "communicates_via"
+    },
+    {
+      "source": "HC1-2R3-R",
+      "target": "22.3mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "SX1278IMLTRT",
+      "target": "0.012mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "MCP3002-I/P",
+      "target": "Differential",
+      "relationship": "outputs_as"
+    },
+    {
+      "source": "MCP3002-I/P",
+      "target": "0.0005499999999999999mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "IS31FL3741A-QFLS4-TR",
+      "target": "0.399mA",
+      "relationship": "draws_current"
+    },
+    {
+      "source": "MLX90640ESF-BAB-000-SP",
+      "target": "24.0mA",
+      "relationship": "draws_current"
+    }
+  ]
+}
