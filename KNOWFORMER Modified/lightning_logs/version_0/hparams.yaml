@@ -1,0 +1,14 @@
+adversarial_temperature: 1.0
+drop: 0.1
+hidden_dim: 64
+learning_rate: 0.0001
+loss_fn: ce
+num_heads: 4
+num_layer: 3
+num_negative_sample: 7
+num_qk_layer: 2
+num_relation: 10
+num_v_layer: 2
+optimizer: Adam
+remove_all: false
+weight_decay: 0.0001

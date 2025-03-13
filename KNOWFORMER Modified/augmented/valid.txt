@@ -1,0 +1,15 @@
+PIC18F4550-I/PT	compatible_with_temp	LM358DR2G
+PIC18F4550-I/PT	compatible_with_dis	HD44780A02
+ATMEGA2560V-8AU	compatible_with_audio	VS1053B-L
+PIC18F4550-I/PT	compatible_with_audio	LM386MMX-1/NOPB
+ATMEGA2560V-8AU	compatible_with_motor	A4988SETTR-T
+STM32H743ZIT6	compatible_with_com	W5500
+ATMEGA2560V-8AU	compatible_with_prox	MB1013-000
+PIC18F4550-I/PT	compatible_with_com	MCP2515DM-PTPLS
+ATMEGA2560V-8AU	compatible_with_acc	H3LIS331DLTR
+PIC18F4550-I/PT	compatible_with_motor	L293DD013TR
+ATMEGA2560V-8AU	compatible_with_temp	DS18B20+PAR
+STM32H743ZIT6	compatible_with_prox	VL53L3CXV0DH/1
+PIC18F4550-I/PT	compatible_with_misc	MCP3002-I/P
+STM32H743ZIT6	compatible_with_misc	MLX90640ESF-BAB-000-SP
+STM32H743ZIT6	compatible_with_acc	BMI088

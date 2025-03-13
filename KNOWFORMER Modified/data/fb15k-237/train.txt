@@ -1,0 +1,7 @@
+/m/0g768	/music/record_label/artist	/m/01vw8mh
+/m/07cw4	/award/award_winning_work/awards_won./award/award_honor/award	/m/02qvyrt
+/m/016mhd	/film/film/release_date_s./film/film_regional_release_date/film_release_distribution_medium	/m/029j_
+/m/01g888	/music/genre/artists	/m/01vv126
+/m/0djvzd	/soccer/football_player/current_team./sports/sports_team_roster/team	/m/02b16p
+/m/0gmblvq	/award/award_winning_work/awards_won./award/award_honor/award	/m/07kjk7c
+/m/020jqv	/award/award_nominee/award_nominations./award/award_nomination/nominated_for	/m/09d3b7

@@ -1,0 +1,16 @@
+PIC18F4550-I/PT	compatible_with_acc	ADXL335BCPZ
+PIC18F4550-I/PT	compatible_with_acc	ADXL203CE
+ATMEGA2560V-8AU	compatible_with_temp	MAX31855KASA+
+ATMEGA2560V-8AU	compatible_with_temp	MAX31856EVSYS#
+STM32H743ZIT6	compatible_with_prox	VL53L1X-SATEL
+ATMEGA2560V-8AU	compatible_with_prox	GP2Y0A710K0F
+PIC18F4550-I/PT	compatible_with_motor	ULN2003A
+STM32H743ZIT6	compatible_with_motor	TMC4671+TMC6100-BOB
+STM32H743ZIT6	compatible_with_audio	ES8388
+STM32H743ZIT6	compatible_with_audio	CS43L22-CNZ
+STM32H743ZIT6	compatible_with_dis	LCD DISPLAY TFT-3.2RTS-ST7789V
+ATMEGA2560V-8AU	compatible_with_dis	OST77358
+PIC18F4550-I/PT	compatible_with_com	ENC28J60-I/SS
+ATMEGA2560V-8AU	compatible_with_com	SX1278IMLTRT
+PIC18F4550-I/PT	compatible_with_misc	DS1302+
+STM32H743ZIT6	compatible_with_misc	IS31FL3741A-QFLS4-TR

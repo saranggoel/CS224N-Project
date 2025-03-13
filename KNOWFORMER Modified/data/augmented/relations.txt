@@ -1,0 +1,10 @@
+communicates_via	0
+-communicates_via	1
+compatible_with	2
+-compatible_with	3
+has_property	4
+-has_property	5
+outputs_as	6
+-outputs_as	7
+requires_voltage	8
+-requires_voltage	9
